@@ -1,4 +1,10 @@
 * {
   padding: 0; 
   margin: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #202020;
+  
 }

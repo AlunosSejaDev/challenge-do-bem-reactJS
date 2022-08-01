@@ -1,10 +1,10 @@
+import LandingPage from "../src/components/landingPage/LadingPage"
 
 
 function Index () {
   return (
     <>
-    <div>Hello world, Challenge do Bem!</div>
-    <div> Welcome! </div>
+    <LandingPage />
     </>
     
   )
