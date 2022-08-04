@@ -1,13 +1,13 @@
-import LandingPage from "../src/components/landingPage/LadingPage"
+import styled from "styled-components"
 
+import NavBar from "../src/components/layout/NavBar"
 
-function Index () {
+function HomePage () {
   return (
-    <>
-    <LandingPage />
-    </>
+
+    <NavBar />
     
   )
 }
 
-export default Index
+export default HomePage
