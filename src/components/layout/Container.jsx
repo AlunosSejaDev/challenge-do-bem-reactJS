@@ -10,16 +10,17 @@ const StyledLogoCB = styled.div`
   justify-content: center;
   align-items:center;
   margin-top: 80px;
+  
 `
 
 const StyledContainer = styled.div`
   display: flex;
-  margin-top: 40px;
-  width: 100%;
+  justify-content: center;
+  align-items:center;
 `
 
 const StyledWoman = styled.div`
-
+  
 `
 
 const StyledText = styled.div`
@@ -56,7 +57,7 @@ function Container () {
           <img src="kettle-bell.svg" alt="equipment" width="300px" />
         </StyledText>
 
-      <StyledManRunning><img src="man-running.svg" alt="woman-jumping" width="750px"/></StyledManRunning>
+      <StyledManRunning><img src="imagem-teste.png" alt="man-running" width="700px"/></StyledManRunning>
 
 
     </StyledContainer>
