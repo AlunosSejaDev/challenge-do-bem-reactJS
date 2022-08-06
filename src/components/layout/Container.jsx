@@ -10,6 +10,10 @@ const StyledLogoCB = styled.div`
   justify-content: center;
   align-items:center;
   margin-top: 80px;
+
+  @media (max-width: 1324px) {
+    object-fit: cover;
+  }
   
 `
 
@@ -54,11 +58,7 @@ function Container () {
           <H1> We ACHIEVE, we DONATE! </H1>
           <H3> Nos ajude a ajudar pessoas que necessitam! </H3>
           <H4> Saiba mais! </H4>
-          <img src="kettle-bell.svg" alt="equipment" width="300px" />
         </StyledText>
-
-      <StyledManRunning><img src="imagem-teste.png" alt="man-running" width="700px"/></StyledManRunning>
-
 
     </StyledContainer>
     

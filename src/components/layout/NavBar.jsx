@@ -3,44 +3,38 @@ import styled from "styled-components";
 const StyledNavBar = styled.div`
   background-color: ${props => props.theme.primary};
   height: 80px;
+  max-width: 100%;
   display: flex;
   align-items: center;
   padding: 10px 20px;
-  gap: 225px;
+  gap: 200px;
 
-  @media (max-width: 1100px) {
+  @media (max-width: 1650px) {
     padding: 0 20px;
+    gap: 20px;
+    height: 350px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
-`
-
-const StyledLogo = styled.span`
-  background-color: ${props => props.theme.primary};
-  display: flex;
-  justify-content: flex-start;
-  padding: 0 20px;
-`
-const StyledLinks = styled.span`
-  background-color: ${props => props.theme.primary};
-  display: flex;
-  gap: 40px;
 `
 
 function NavBar () {
   return(
-
+<>
     <StyledNavBar>
-
-        <StyledLogo> <img src="CB-Icon-Header.svg" alt="Mini-logo-CB" /></StyledLogo>      
-
-      <StyledLinks>
-        <a href="#"> Home </a>
-        <a href="#"> Sobre nós </a>
-        <a href="#"> Instituições parceiras </a>
-        <a href="#"> Desafio do mês </a>
-        <a href="#"> Saiba mais </a>
-      </StyledLinks>
+        
+          <img src="CB-Icon-Header.svg" alt="Mini-logo-CB" />
+          <a href="#"> Home </a>
+          <a href="#"> Sobre nós </a>
+          <a href="#"> Instituições parceiras </a>
+          <a href="#"> Desafio do mês </a>
+          <a href="#"> Saiba mais </a>             
 
     </StyledNavBar>
+</>
+    
+    
   )
 }
 
