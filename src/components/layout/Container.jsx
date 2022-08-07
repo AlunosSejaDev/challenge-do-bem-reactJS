@@ -5,17 +5,6 @@ import H3 from '../typograph/H3';
 import H4 from '../typograph/H4'
 
 
-const StyledLogoCB = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  margin-top: 80px;
-
-  @media (max-width: 1324px) {
-    object-fit: cover;
-  }
-  
-`
 
 const StyledContainer = styled.div`
   display: flex;
@@ -37,18 +26,10 @@ margin-left: 50px;
 gap: 20px;
 `
 
-const StyledManRunning = styled.div`
-
-`
-
 function Container () {
   return(
 
     <> 
-    
-    <StyledLogoCB> 
-      <img src="challenge-do-bem.svg" alt="Logo-Challenge-do-bem" />
-    </StyledLogoCB>
 
     <StyledContainer> 
 

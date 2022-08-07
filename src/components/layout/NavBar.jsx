@@ -9,7 +9,7 @@ const StyledNavBar = styled.div`
   padding: 10px 20px;
   gap: 200px;
 
-  @media (max-width: 1650px) {
+  @media (max-width: 1500px) {
     padding: 0 20px;
     gap: 20px;
     height: 350px;
