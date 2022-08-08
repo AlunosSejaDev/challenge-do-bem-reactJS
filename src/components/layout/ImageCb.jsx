@@ -1,37 +1,68 @@
 import styled from "styled-components"
 
+const WIDTH_BREAK = '900px'
 
 const StyledFlex = styled.div`
   display: flex;
+  color: ${props => props.theme.white};
+  text-align: center;
 `
 
 const StyledImageCb = styled.div`
-  background-image: url('${props => props.image}');
-  background-position: center;
-  background-repeat: no-repeat;
+    background-image: url('${props => props.image}');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    
 
-  width: 100%;
-  height: 20vh;
+    @media (max-width: ${WIDTH_BREAK}) {
+    display: none;
+}
 `
 
 const StyledContainer = styled.div`
-  background-color: ${props => props.theme.background};
-  
+    background-color: ${props => props.theme.background};
+    padding: 30px 50px;
+
+    @media (min-width: ${WIDTH_BREAK}) {
+      min-width: calc(${WIDTH_BREAK} - 100px);
+    }
+
+    @media (max-width: ${WIDTH_BREAK}) {
+      width: 100%;
+    }
+
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 60px);
+    overflow-y: auto;
+    &:before, &:after {
+      content: '';
+      margin: auto;
+    }
 `
+
 
 function ImageCb ({ children, image }) { 
   return (
     <div>
+
       <StyledFlex>
+
         <StyledImageCb image={image} />
+
         <StyledContainer>{children}</StyledContainer>
+
       </StyledFlex>
+
     </div>
   )
 }
 
 ImageCb.defaultProps = {
-  image: '/challenge-do-bem.svg'
+  image: '/meghan-holmes.jpg'
 }
 
 export default ImageCb
