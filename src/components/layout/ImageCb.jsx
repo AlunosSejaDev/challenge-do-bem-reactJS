@@ -36,7 +36,6 @@ const StyledContainer = styled.div`
 
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 60px);
     overflow-y: auto;
     &:before, &:after {
       content: '';
