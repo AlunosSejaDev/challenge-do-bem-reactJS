@@ -3,16 +3,22 @@ import styled from "styled-components"
 import NavBar from "../src/components/layout/NavBar"
 import ImageCb from "../src/components/layout/ImageCb"
 
-import H1 from "../src/components/typograph/H1"
-import H4 from "../src/components/typograph/H4"
+import H1 from '../src/components/typograph/H1'
+import H2 from '../src/components/typograph/H2'
+import H5 from "../src/components/typograph/H5"
 
 import Button from "../src/components/inputs/Button";
 
+import Icon from "../src/components/icons/Icon"
+import AboutUs from "../src/components/layout/AboutUs"
+
+const WIDTH_BREAK = '800px'
+
 const FormContainer = styled.div`
-  margin-top: 60px;
+  margin: 60px 0;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 60px;
 `
 
 const Form = styled.form`
@@ -21,6 +27,16 @@ const Form = styled.form`
   align-items: center;
   margin: 20px 0;
   gap: 20px;
+`
+
+const Text = styled.p`
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+
+  @media (max-width: ${WIDTH_BREAK}) {
+    display: flex;
+    flex-direction: column;
 `
 
 
@@ -34,10 +50,15 @@ function HomePage () {
       <ImageCb>
         
         <FormContainer>
+          
+          <Icon />
+          
+          <Text>
+            <H2># We</H2><H1>ACHIEVE,</H1><H2>we</H2><H1>DONATE!</H1>
+          </Text>
+          
 
-          <img src="challenge-do-bem.svg" alt="" width="820px"/>
-          <H1> # We ACHIEVE, we DONATE! </H1>
-          <H4> Nos ajude a ajudar pessoas que necessitam! </H4>
+          <H5> Nos ajude a ajudar pessoas que necessitam! </H5>
 
             <Form>
 
@@ -48,6 +69,8 @@ function HomePage () {
         </FormContainer>
 
       </ImageCb>
+
+      <AboutUs />
 
     </>
     
