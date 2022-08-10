@@ -1,9 +1,8 @@
 
-function Images () {
+function Images ({ imageName, type, ...props }) {
   return(
     <>
-    <img src="/CB-Donation.svg" />
-    <img src="/CB-trainning.svg" />
+    <img src={`/images/${imageName}.${type}`} />
     </>
     
   )

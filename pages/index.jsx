@@ -11,6 +11,7 @@ import Button from "../src/components/inputs/Button";
 
 import Icon from "../src/components/icons/Icon"
 import AboutUs from "../src/components/layout/AboutUs"
+import PartnerInstitutions from '../src/components/layout/PartnerInstitutions'
 
 const WIDTH_BREAK = '800px'
 
@@ -25,8 +26,7 @@ const Form = styled.form`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 20px 0;
-  gap: 20px;
+  margin: 25px 0;
 `
 
 const Text = styled.p`
@@ -44,34 +44,23 @@ function HomePage () {
   return (
 
     <>
-
       <NavBar />
-
       <ImageCb>
-        
         <FormContainer>
           
           <Icon />
-          
           <Text>
             <H2># We</H2><H1>ACHIEVE,</H1><H2>we</H2><H1>DONATE!</H1>
           </Text>
-          
-
           <H5> Nos ajude a ajudar pessoas que necessitam! </H5>
-
             <Form>
-
               <Button> Saiba mais! </Button>
-
             </Form>
-         
+
         </FormContainer>
-
       </ImageCb>
-
       <AboutUs />
-
+      <PartnerInstitutions />
     </>
     
     

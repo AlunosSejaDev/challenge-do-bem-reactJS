@@ -24,7 +24,7 @@ function NavBar () {
 <>
     <StyledNavBar>
         
-          <img src="CB-Icon-Header.svg" alt="Mini-logo-CB" />
+          <img src="/CB-Icon-Header.svg" alt="Mini-logo-CB" />
           <a href="#"> Home </a>
           <a href="#"> Sobre nós </a>
           <a href="#"> Instituições parceiras </a>
