@@ -12,6 +12,7 @@ import Button from "../src/components/inputs/Button";
 import Icon from "../src/components/icons/Icon"
 import AboutUs from "../src/components/layout/AboutUs"
 import PartnerInstitutions from '../src/components/layout/PartnerInstitutions'
+import LineBar from "../src/components/layout/lineBar"
 
 const WIDTH_BREAK = '800px'
 
@@ -59,8 +60,11 @@ function HomePage () {
 
         </FormContainer>
       </ImageCb>
+      <LineBar />
       <AboutUs />
+      <LineBar />
       <PartnerInstitutions />
+      <LineBar />
     </>
     
     
