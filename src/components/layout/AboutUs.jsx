@@ -48,10 +48,9 @@ function AboutUs () {
             <H3>“Nós somos uma AÇÃO SOCIAL que teve início em 2021 com a intenção de atingir objetivos esportivos, um  "challenge”.” </H3>
             <H3>“Todos os meses damos se atingirmos o objetivo, caso contrário nós TRIPLICAMOS a doação!”</H3>
           </StyledTitle>  
-              
-      
         <StyledImages>
-          <Images />
+          <Images imageName="CB-Donation" type="svg" />
+          <Images imageName="CB-trainning" type="svg" />
         </StyledImages>
     </StyledContainer>
     </>
