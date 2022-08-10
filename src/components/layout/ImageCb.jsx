@@ -1,7 +1,5 @@
 import styled from "styled-components"
 
-import Images from "../icons/Images";
-
 const WIDTH_BREAK = '900px'
 
 const StyledFlex = styled.div`
@@ -52,7 +50,7 @@ function ImageCb ({ children, image }) {
 
       <StyledFlex>
 
-        <StyledImageCb imageName="meghan-holmes" type="jpg" />
+        <StyledImageCb image={image} />
 
         <StyledContainer>{children}</StyledContainer>
 
@@ -62,5 +60,8 @@ function ImageCb ({ children, image }) {
   )
 }
 
+ImageCb.defaultProps = {
+  image: '/meghan-holmes.jpg'
+}
 
 export default ImageCb
