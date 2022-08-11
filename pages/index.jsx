@@ -13,6 +13,7 @@ import Icon from "../src/components/icons/Icon"
 import AboutUs from "../src/components/layout/AboutUs"
 import PartnerInstitutions from '../src/components/layout/PartnerInstitutions'
 import LineBar from "../src/components/layout/LineBar"
+import Podcast from "../src/components/layout/Podcast"
 
 const WIDTH_BREAK = '800px'
 
@@ -66,6 +67,8 @@ function HomePage () {
       <AboutUs />
       <LineBar />
       <PartnerInstitutions />
+      <LineBar />
+      <Podcast />
       <LineBar />
     </>
     
