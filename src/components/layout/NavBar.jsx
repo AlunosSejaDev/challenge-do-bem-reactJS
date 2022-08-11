@@ -7,7 +7,6 @@ const StyledNavBar = styled.div`
   align-items: center;
   padding: 10px 20px;
   gap: 100px;
-  z-index: 100;
   position: fixed;
   width: 100%;
   background: rgba(255, 255, 255, 0.25);
@@ -41,7 +40,7 @@ function NavBar () {
 <>
     <StyledNavBar>
         
-          <img src="/CB-Icon-Header.svg" alt="Mini-logo-CB" />
+          <img src="/CB-Black-icon.png" alt="Mini-logo-CB" width='100px'/>
           <a href="#"> Home </a>
           <a href="#"> Sobre nós </a>
           <a href="#"> Instituições parceiras </a>
