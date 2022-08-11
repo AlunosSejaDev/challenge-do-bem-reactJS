@@ -39,14 +39,12 @@ function NavBar () {
   return(
 <>
     <StyledNavBar>
-        
           <img src="/CB-Icon-Header.svg" alt="Mini-logo-CB" width='100px'/>
           <a href="#"> Home </a>
           <a href="#"> Sobre nós </a>
           <a href="#"> Instituições parceiras </a>
           <a href="#"> Desafio do mês </a>
           <a href="#"> Saiba mais </a>             
-
     </StyledNavBar>
 </>  
   )
