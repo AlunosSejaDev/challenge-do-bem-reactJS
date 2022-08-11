@@ -38,7 +38,9 @@ const Text = styled.p`
   @media (max-width: ${WIDTH_BREAK}) {
     display: flex;
     flex-direction: column;
+  }
 `
+
 
 
 function HomePage () {

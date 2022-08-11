@@ -9,7 +9,7 @@ const StyledNavBar = styled.div`
   gap: 100px;
   position: fixed;
   width: 100%;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(1, 107, 155, 0.70);
   backdrop-filter: blur(14px);
 
   @media (max-width: 1500px) {
@@ -40,7 +40,7 @@ function NavBar () {
 <>
     <StyledNavBar>
         
-          <img src="/CB-Black-icon.png" alt="Mini-logo-CB" width='100px'/>
+          <img src="/CB-Icon-Header.svg" alt="Mini-logo-CB" width='100px'/>
           <a href="#"> Home </a>
           <a href="#"> Sobre nós </a>
           <a href="#"> Instituições parceiras </a>
