@@ -2,11 +2,16 @@ import styled from "styled-components";
 
 const StyledNavBar = styled.div`
   background-color: ${props => props.theme.primary};
-  height: 80px;
+  height: 70px;
   display: flex;
   align-items: center;
   padding: 10px 20px;
   gap: 100px;
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(14px);
 
   @media (max-width: 1500px) {
     padding: 0 20px;
@@ -44,9 +49,7 @@ function NavBar () {
           <a href="#"> Saiba mais </a>             
 
     </StyledNavBar>
-</>
-    
-    
+</>  
   )
 }
 

@@ -14,7 +14,7 @@ const GlobalStyle = createGlobalStyle`
  }
 
  a {
-  color: ${props => props.theme.white};
+  color: ${props => props.theme.background};
   font-weight: bold;
   font-size: 24px;
   text-decoration: none;
@@ -28,7 +28,6 @@ a:hover {
 
 function App ({ Component, pageProps }) {
   return (
-
 
       <ThemeProvider theme={theme}>
 

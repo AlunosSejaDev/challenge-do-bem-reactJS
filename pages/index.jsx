@@ -17,7 +17,7 @@ import LineBar from "../src/components/layout/LineBar"
 const WIDTH_BREAK = '800px'
 
 const FormContainer = styled.div`
-  margin: 60px 0;
+  margin: 360px 0;
   display: flex;
   flex-direction: column;
   gap: 60px;
