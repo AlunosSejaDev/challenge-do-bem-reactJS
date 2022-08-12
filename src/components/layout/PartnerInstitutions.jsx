@@ -99,17 +99,17 @@ function PartnerInstitutions () {
         </StyledTitle>
         <StyledAllImages>
           <StyledImage1>
-            <Images imageName='partner-1' type='svg' />
+            <Images imageName='becoDaEsperanca' type='svg' />
           </StyledImage1>
           <StyledImage2>
-            <Images imageName='partner-2' type='svg' />
+            <Images imageName='institutoDuCao' type='svg' />
           </StyledImage2>
           <StyledImage3>
-            <Images imageName='partner-3' type='svg' />
+            <Images imageName='asiloSaoVicente' type='svg' />
           </StyledImage3>
         </StyledAllImages>
           <StyledImage4>
-              <Images imageName='partner-4' type='svg' />
+              <Images imageName='amigosDoCaximba' type='svg' />
           </StyledImage4>
       </StyledContainer>
     
