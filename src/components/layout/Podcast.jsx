@@ -38,12 +38,32 @@ const StyledTitle = styled.div`
 `
 const StyledImage = styled.div`
   
+  @media (max-width: 850px) {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+  }
+
+  @media (max-width: 825px) {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+  }
+
+  @media (max-width: 815px) {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+
   @media (max-width: 800px) {
     display: flex;
     flex-direction: column;
     width: 200px;
   }
 `
+
+
 
 function Podcast() {
   return(
