@@ -3,7 +3,7 @@ import styled from "styled-components";
 import H1 from '../typograph/H1'
 import H3 from "../typograph/H3"
 
-import Images from "../icons/Images";
+import IconImages from "../icons/IconImages";
 
 
 const StyledTitle = styled.div`
@@ -62,8 +62,8 @@ function AboutUs () {
             <H3>“Todos os meses damos se atingirmos o objetivo, caso contrário nós TRIPLICAMOS a doação!”</H3>
           </StyledTitle>  
         <StyledImages>
-          <Images imageName="CB-Donation" type="svg" />
-          <Images imageName="CB-trainning" type="svg" />
+          <IconImages imageName="CB-Donation" type="svg" />
+          <IconImages imageName="CB-trainning" type="svg" />
         </StyledImages>
     </StyledContainer>
     </>

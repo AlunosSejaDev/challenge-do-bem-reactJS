@@ -1,5 +1,5 @@
 
-function Images ({ imageName, type, ...props }) {
+function IconImages ({ imageName, type, ...props }) {
   return(
     <>
     <img src={`/images/${imageName}.${type}`} />
@@ -8,4 +8,4 @@ function Images ({ imageName, type, ...props }) {
   )
 }
 
-export default Images
+export default IconImages

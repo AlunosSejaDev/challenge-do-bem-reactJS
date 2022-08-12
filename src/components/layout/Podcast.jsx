@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import H1 from '../typograph/H1'
 import H4 from "../typograph/H4"
 
-import Images from '../icons/Images'
+import IconImages from '../icons/IconImages'
 
 const StyledContainer = styled.div`
   display: flex;
@@ -63,8 +63,6 @@ const StyledImage = styled.div`
   }
 `
 
-
-
 function Podcast() {
   return(
     <StyledContainer>
@@ -80,7 +78,7 @@ function Podcast() {
           </H1>
         </StyledTitle>
         <StyledImage>
-        <Images imageName='MundoLivre2' type='png' />
+        <IconImages imageName='MundoLivre2' type='png' />
         </StyledImage>
         <H4>
           Ouça agora o PodCast sobre o CB clicando aqui!

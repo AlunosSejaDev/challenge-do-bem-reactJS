@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 import H1 from '../typograph/H1'
 
-import Images from '../icons/Images'
+import IconImages from '../icons/IconImages'
 
 
 const StyledContainer = styled.div`
@@ -99,17 +99,17 @@ function PartnerInstitutions () {
         </StyledTitle>
         <StyledAllImages>
           <StyledImage1>
-            <Images imageName='becoDaEsperanca' type='svg' />
+            <IconImages imageName='becoDaEsperanca' type='svg' />
           </StyledImage1>
           <StyledImage2>
-            <Images imageName='institutoDuCao' type='svg' />
+            <IconImages imageName='institutoDuCao' type='svg' />
           </StyledImage2>
           <StyledImage3>
-            <Images imageName='asiloSaoVicente' type='svg' />
+            <IconImages imageName='asiloSaoVicente' type='svg' />
           </StyledImage3>
         </StyledAllImages>
           <StyledImage4>
-              <Images imageName='amigosDoCaximba' type='svg' />
+            <IconImages imageName='amigosDoCaximba' type='svg' />
           </StyledImage4>
       </StyledContainer>
     
