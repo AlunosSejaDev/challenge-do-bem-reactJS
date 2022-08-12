@@ -1,19 +1,19 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
-import NavBar from "../src/components/layout/NavBar"
-import ImageCb from "../src/components/layout/ImageCb"
+import NavBar from '../src/components/layout/NavBar'
+import ImageCb from '../src/components/layout/ImageCb'
 
 import H1 from '../src/components/typograph/H1'
 import H2 from '../src/components/typograph/H2'
-import H5 from "../src/components/typograph/H5"
+import H5 from '../src/components/typograph/H5'
 
-import Button from "../src/components/inputs/Button";
+import Button from '../src/components/inputs/Button'
 
-import Icon from "../src/components/icons/Icon"
-import AboutUs from "../src/components/layout/AboutUs"
+import Icon from '../src/components/icons/Icon'
+import AboutUs from '../src/components/layout/AboutUs'
 import PartnerInstitutions from '../src/components/layout/PartnerInstitutions'
-import LineBar from "../src/components/layout/LineBar"
-import Podcast from "../src/components/layout/Podcast"
+import LineBar from '../src/components/layout/LineBar'
+import Podcast from '../src/components/layout/Podcast'
 
 const WIDTH_BREAK = '800px'
 
@@ -42,40 +42,31 @@ const Text = styled.p`
   }
 `
 
-
-
 function HomePage () {
   return (
-
     <>
       <NavBar />
       <ImageCb>
         <FormContainer>
-          
           <Icon />
-          <Text>
-            <H2># We</H2><H1>ACHIEVE,</H1><H2>we</H2><H1>DONATE!</H1>
-          </Text>
-          <H5> Nos ajude a ajudar pessoas que necessitam! </H5>
-            <Form>
-              <Button> Saiba mais! </Button>
-            </Form>
-
+            <Text>
+              <H2># We</H2><H1>ACHIEVE,</H1><H2>we</H2><H1>DONATE!</H1>
+            </Text>
+                <H5> Nos ajude a ajudar pessoas que necessitam! </H5>
+                  <Form>
+                    <Button> Saiba mais! </Button>
+                  </Form>
         </FormContainer>
       </ImageCb>
-      <LineBar />
-      <AboutUs />
-      <LineBar />
-      <PartnerInstitutions />
-      <LineBar />
-      <Podcast />
-      <LineBar />
+        <LineBar />
+          <AboutUs />
+        <LineBar />
+          <PartnerInstitutions />
+        <LineBar />
+          <Podcast />
+        <LineBar />
     </>
-    
-    
   )
 }
-
-
 
 export default HomePage
