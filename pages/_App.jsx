@@ -1,5 +1,4 @@
-import { createGlobalStyle, ThemeProvider } from 'styled-components';
-
+import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import theme from '../src/theme'
 
 const GlobalStyle = createGlobalStyle`
@@ -28,15 +27,10 @@ a:hover {
 
 function App ({ Component, pageProps }) {
   return (
-
       <ThemeProvider theme={theme}>
-
         <GlobalStyle />
         <Component {...pageProps} />
-
       </ThemeProvider>
-      
-   
   )
 }
 

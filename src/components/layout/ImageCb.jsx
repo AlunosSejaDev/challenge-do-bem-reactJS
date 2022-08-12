@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 const WIDTH_BREAK = '900px'
 
@@ -16,7 +16,6 @@ const StyledImageCb = styled.div`
     width: 100%;
     height: 100vh;
     
-
     @media (max-width: ${WIDTH_BREAK}) {
     display: none;
 }
@@ -43,20 +42,14 @@ const StyledContainer = styled.div`
     }
 `
 
-
 function ImageCb ({ children, image }) { 
   return (
-    <div>
-
+    <>
       <StyledFlex>
-
         <StyledImageCb image={image} />
-
-        <StyledContainer>{children}</StyledContainer>
-
+          <StyledContainer>{children}</StyledContainer>
       </StyledFlex>
-
-    </div>
+    </>
   )
 }
 
