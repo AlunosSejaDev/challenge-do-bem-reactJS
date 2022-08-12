@@ -73,7 +73,7 @@ function Podcast() {
           <StyledImage>
             <IconImages imageName='MundoLivre2' type='png' />
           </StyledImage>
-            <H4>Ouça agora o PodCast sobre o CB clicando aqui!</H4>
+            <H4>Ouça agora o PodCast sobre o CB clicando <a href=''>AQUI!</a></H4>
       </StyledContainer>
   )
 }

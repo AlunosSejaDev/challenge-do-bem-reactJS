@@ -14,6 +14,8 @@ import AboutUs from '../src/components/layout/AboutUs'
 import PartnerInstitutions from '../src/components/layout/PartnerInstitutions'
 import LineBar from '../src/components/layout/LineBar'
 import Podcast from '../src/components/layout/Podcast'
+import MonthlyExercise from '../src/components/layout/MonthlyExercise'
+import StyledSecondaryLineBarContainer from '../src/components/layout/SecondaryLineBar'
 
 const WIDTH_BREAK = '800px'
 
@@ -65,6 +67,8 @@ function HomePage () {
         <LineBar />
           <Podcast />
         <LineBar />
+          <MonthlyExercise />
+        <StyledSecondaryLineBarContainer />
     </>
   )
 }
