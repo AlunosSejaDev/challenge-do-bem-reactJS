@@ -1,4 +1,3 @@
-
 function IconImages ({ imageName, type, ...props }) {
   return(
     <>

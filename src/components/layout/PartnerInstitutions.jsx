@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
 import H1 from '../typograph/H1'
-
 import IconImages from '../icons/IconImages'
-
 
 const StyledContainer = styled.div`
   display: flex;
@@ -112,7 +110,6 @@ function PartnerInstitutions () {
             <IconImages imageName='amigosDoCaximba' type='svg' />
           </StyledImage4>
       </StyledContainer>
-    
     </>
   )
 }
