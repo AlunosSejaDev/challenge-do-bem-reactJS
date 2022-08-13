@@ -7,6 +7,10 @@ const StyledMonthlyHeader = styled.div`
   display: flex;
   justify-content: center;
   padding: 60px;
+
+  @media (max-width: 1548px) {
+    display: none;
+  }
 `
 
 const StyledMonthlyContainer = styled.div`
@@ -14,14 +18,17 @@ const StyledMonthlyContainer = styled.div`
   flex-direction: column;
   align-items: center;
 `
-const StyledTitleMonthlyExercise = styled.div`
+const StyledTitleMonthlyExercise = styled.button`
   display: flex;
   justify-content: center;
   margin: 80px 80px;
   font-size: 48px;
   font-weight: bold;
+  background-color: ${props => props.theme.background};
   color: ${props => props.theme.primary};
-
+  border: none;
+  cursor: pointer;
+  
   @media (max-width: 700px) {
     display: flex;
     flex-direction: column;

@@ -7,8 +7,8 @@ const StyledSecondaryLineBarContainer = styled.div`
 `
 const StyledSecondaryLineBar = styled.div`
   background-color: ${props => props.theme.white};
-  width: 900px;
-  height: 2px;
+  width: 1200px;
+  height: 4px;
 `
 
 function LineBar () {
