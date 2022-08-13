@@ -64,6 +64,18 @@ const StyledExercise3 = styled.div`
   padding: 15px;
 `
 
+const StyledRankingExercise = styled.div`
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+`
+
+const StyledDiv = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+`
+
 function MonthlyExercise () {
   return (
     <>
@@ -75,18 +87,47 @@ function MonthlyExercise () {
             <H1>Desafios do mês</H1>
           </StyledTitleMonthlyExercise>
             <StyledAllExercise>
-              <StyledExercise1>
-                <IconImages imageName='Lunge' type='svg' />
-              </StyledExercise1>
-              <StyledExercise2>
-                <IconImages imageName='Lunge' type='svg' />
-              </StyledExercise2>
-              <StyledExercise3> 
-                <IconImages imageName='Lunge' type='svg' />
-              </StyledExercise3>
+
+              <StyledDiv>
+                <StyledExercise1>
+                  <IconImages imageName='Lunge' type='svg' />                                        
+                </StyledExercise1>
+                  <StyledRankingExercise>
+                  <p>Corrida ou caminhada</p>
+                  <p>Ouro - 70.000m</p>
+                  <p>Prata - 50.000m</p>
+                  <p>Bronze - 30.000m</p>   
+                </StyledRankingExercise> 
+              </StyledDiv>
+
+              <StyledDiv>
+                <StyledExercise2>
+                  <IconImages imageName='Lunge' type='svg' />
+                </StyledExercise2>
+                <StyledRankingExercise>
+                  <p>Bike</p>
+                  <p>OURO - 150.000m</p>
+                  <p>PRATA - 100.000m</p>
+                  <p>BRONZE - 50.000m</p>   
+                </StyledRankingExercise> 
+              </StyledDiv>
+              
+              <StyledDiv>
+                <StyledExercise3> 
+                  <IconImages imageName='Lunge' type='svg' />
+                </StyledExercise3>
+                <StyledRankingExercise>
+                    <p>Lunge</p>
+                    <p>OURO - 1500 LUNGE</p>
+                    <p>PRATA - 1000 LUNGE</p>
+                    <p>BRONZE - 500 LUNGE</p>   
+                  </StyledRankingExercise> 
+              </StyledDiv>
+              
+
             </StyledAllExercise>
               <StyledTitleMonthlyExercise>
-                <H1><a href=''>Se inscreva agora! </a></H1>
+                <H1><a href=''>Inscreva-se agora! </a></H1>
               </StyledTitleMonthlyExercise>
       </StyledMonthlyContainer>
     </>
