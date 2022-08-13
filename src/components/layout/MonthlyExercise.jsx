@@ -18,6 +18,9 @@ const StyledTitleMonthlyExercise = styled.div`
   display: flex;
   justify-content: center;
   margin: 80px 80px;
+  font-size: 48px;
+  font-weight: bold;
+  color: ${props => props.theme.primary};
 
   @media (max-width: 700px) {
     display: flex;
@@ -64,13 +67,18 @@ const StyledExercise3 = styled.div`
   padding: 15px;
 `
 
-const StyledRankingExercise = styled.div`
+const StyledSpecificGoals = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 30px;
+  align-items: center;
+  gap: 20px;
+  color: ${props => props.theme.white};
+  font-size: 24px;
+  font-weight: bold;
 `
 
-const StyledDiv = styled.div`
+const StyledAllGoalsExercise = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -87,47 +95,42 @@ function MonthlyExercise () {
             <H1>Desafios do mês</H1>
           </StyledTitleMonthlyExercise>
             <StyledAllExercise>
-
-              <StyledDiv>
+              <StyledAllGoalsExercise>
                 <StyledExercise1>
                   <IconImages imageName='Lunge' type='svg' />                                        
                 </StyledExercise1>
-                  <StyledRankingExercise>
+                  <StyledSpecificGoals>
                   <p>Corrida ou caminhada</p>
-                  <p>Ouro - 70.000m</p>
-                  <p>Prata - 50.000m</p>
-                  <p>Bronze - 30.000m</p>   
-                </StyledRankingExercise> 
-              </StyledDiv>
-
-              <StyledDiv>
+                  <p>🥇OURO - 70.000m</p>
+                  <p>🥈PRATA - 50.000m</p>
+                  <p>🥉BRONZE - 30.000m</p>   
+                </StyledSpecificGoals> 
+              </StyledAllGoalsExercise>
+              <StyledAllGoalsExercise>
                 <StyledExercise2>
                   <IconImages imageName='Lunge' type='svg' />
                 </StyledExercise2>
-                <StyledRankingExercise>
+                <StyledSpecificGoals>
                   <p>Bike</p>
-                  <p>OURO - 150.000m</p>
-                  <p>PRATA - 100.000m</p>
-                  <p>BRONZE - 50.000m</p>   
-                </StyledRankingExercise> 
-              </StyledDiv>
-              
-              <StyledDiv>
+                  <p>🥇OURO - 150.000m</p>
+                  <p>🥈PRATA - 100.000m</p>
+                  <p>🥉BRONZE - 50.000m</p>   
+                </StyledSpecificGoals> 
+              </StyledAllGoalsExercise>
+              <StyledAllGoalsExercise>
                 <StyledExercise3> 
                   <IconImages imageName='Lunge' type='svg' />
                 </StyledExercise3>
-                <StyledRankingExercise>
+                <StyledSpecificGoals>
                     <p>Lunge</p>
-                    <p>OURO - 1500 LUNGE</p>
-                    <p>PRATA - 1000 LUNGE</p>
-                    <p>BRONZE - 500 LUNGE</p>   
-                  </StyledRankingExercise> 
-              </StyledDiv>
-              
-
+                    <p>🥇OURO - 1500 LUNGE</p>
+                    <p>🥈PRATA - 1000 LUNGE</p>
+                    <p>🥉BRONZE - 500 LUNGE</p>   
+                  </StyledSpecificGoals> 
+              </StyledAllGoalsExercise>
             </StyledAllExercise>
               <StyledTitleMonthlyExercise>
-                <H1><a href=''>Inscreva-se agora! </a></H1>
+                <p>Inscreva-se agora!</p>
               </StyledTitleMonthlyExercise>
       </StyledMonthlyContainer>
     </>
