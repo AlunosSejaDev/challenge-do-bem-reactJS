@@ -93,7 +93,7 @@ function PartnerInstitutions () {
     <>
       <StyledContainer>
         <StyledTitle>
-          <H1>Instituições parceiras</H1>
+          <H1>Instituições apoiadas</H1>
         </StyledTitle>
         <StyledAllImages>
           <StyledImage1>
