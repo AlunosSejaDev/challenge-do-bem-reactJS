@@ -33,6 +33,28 @@ const StyledAllImages = styled.div`
   }
 `
 
+const StyledAllImages2 = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+  }
+`
+
+const StyledAllImages3 = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 50px;
+
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+  }
+`
+
 const StyledImage1 = styled.div`
   background-color: ${props => props.theme.white};
   box-sizing: border-box;
@@ -66,6 +88,50 @@ const StyledImage3 = styled.div`
 `
 
 const StyledImage4 = styled.div`
+  background-color: ${props => props.theme.white};
+  box-sizing: border-box;
+  border: 4px solid;
+  border-color: ${props => props.theme.primary};
+  border-radius: 50px;
+`
+
+const StyledImage5 = styled.div`
+  background-color: ${props => props.theme.white};
+  box-sizing: border-box;
+  border: 4px solid;
+  border-color: ${props => props.theme.primary};
+  border-radius: 50px;
+  padding: 20px 30px;
+`
+
+const StyledImage6 = styled.div`
+  background-color: ${props => props.theme.white};
+  box-sizing: border-box;
+  border: 4px solid;
+  border-color: ${props => props.theme.primary};
+  border-radius: 50px;
+  padding: 20px 30px;
+`
+
+const StyledImage7 = styled.div`
+  background-color: ${props => props.theme.white};
+  box-sizing: border-box;
+  border: 4px solid;
+  border-color: ${props => props.theme.primary};
+  border-radius: 50px;
+  padding: 20px 30px;
+`
+
+const StyledImage8 = styled.div`
+  background-color: ${props => props.theme.white};
+  box-sizing: border-box;
+  border: 4px solid;
+  border-color: ${props => props.theme.primary};
+  border-radius: 50px;
+  padding: 20px 30px;
+`
+
+const StyledImage9 = styled.div`
   background-color: ${props => props.theme.white};
   box-sizing: border-box;
   border: 4px solid;
@@ -106,9 +172,29 @@ function PartnerInstitutions () {
             <IconImages imageName='asiloSaoVicente' type='svg' />
           </StyledImage3>
         </StyledAllImages>
+
+        <StyledAllImages2>
           <StyledImage4>
-            <IconImages imageName='amigosDoCaximba' type='svg' />
+            <IconImages imageName='CrazyCat' type='png' />
           </StyledImage4>
+          <StyledImage5>
+            <IconImages imageName='JardimDasBorboletas' type='png' />
+          </StyledImage5>
+          <StyledImage6>
+            <IconImages imageName='Maestro' type='png' />
+          </StyledImage6>
+        </StyledAllImages2>
+        <StyledAllImages3>
+          <StyledImage7>
+            <IconImages imageName='RangoDeRua' type='png' />
+          </StyledImage7>
+          <StyledImage8>
+            <IconImages imageName='SocorroAosNecessitados' type='png' />
+          </StyledImage8>
+        </StyledAllImages3>
+          <StyledImage9>
+            <IconImages imageName='amigosDoCaximba' type='svg' />
+          </StyledImage9>
       </StyledContainer>
     </>
   )

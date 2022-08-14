@@ -12,6 +12,7 @@ const StyledFooter = styled.div`
   width: 100%;
   height: 105px;
   margin-top: 2em;
+
   @media (max-width: 500px) {
     display: flex;
     text-align: center;
@@ -19,7 +20,6 @@ const StyledFooter = styled.div`
     padding: 0 6px 0 6px;
   }
 `
-
 
 function Footer () {
   return (
