@@ -15,9 +15,8 @@ const StyledContainerContact = styled.div`
   @media (max-width: 1400px) {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
   }
-
 `
 
 const StyledWhereAreUs = styled.div`

@@ -72,8 +72,6 @@ const StyledImage2 = styled.div`
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 5px 10px;
-
-
 `
 
 const StyledImage3 = styled.div`
@@ -186,7 +184,6 @@ function PartnerInstitutions () {
             <IconImages imageName='asiloSaoVicente' type='svg' />
           </StyledImage3>
         </StyledAllImages>
-
         <StyledAllImages2>
           <StyledImage4>
             <IconImages imageName='CrazyCatOficial' type='svg' />
@@ -198,7 +195,6 @@ function PartnerInstitutions () {
             <IconImages imageName='MaestroOficial' type='svg' />
           </StyledImage6>
         </StyledAllImages2>
-
         <StyledAllImages3>
           <StyledImage7>
             <IconImages imageName='RangoDeRuaOficial' type='svg' />
