@@ -7,7 +7,7 @@ const StyledContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 120px;
   gap: 25px;
 `
 
@@ -25,7 +25,6 @@ const StyledTitle = styled.div`
 
 const StyledAllImages = styled.div`
   display: flex;
-  align-items: center;
   gap: 50px;
 
   @media (max-width: 1200px) {
@@ -36,7 +35,6 @@ const StyledAllImages = styled.div`
 
 const StyledAllImages2 = styled.div`
   display: flex;
-  align-items: center;
   gap: 50px;
 
   @media (max-width: 1200px) {
@@ -47,7 +45,6 @@ const StyledAllImages2 = styled.div`
 
 const StyledAllImages3 = styled.div`
   display: flex;
-  align-items: center;
   gap: 50px;
 
   @media (max-width: 1200px) {
@@ -57,99 +54,99 @@ const StyledAllImages3 = styled.div`
 `
 
 const StyledImage1 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   box-sizing: border-box;
   border: 4px solid;
   width: 345px;
   height: 345px;
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 15px;
+  padding: 15px 40px;
 `
 const StyledImage2 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   box-sizing: border-box;
   border: 4px solid;
   width: 345px;
   height: 345px;
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 5px 0;
+  padding: 5px 10px;
 
-  @media (max-width: 400px) {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-  }
+
 `
 
 const StyledImage3 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
+  box-sizing: border-box;
+  border: 4px solid; 
   width: 345px;
   height: 345px;
-  box-sizing: border-box;
-  border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 20px 30px;
+  padding: 20px 60px;
 `
 
 const StyledImage4 = styled.div`
-  background-color: ${props => props.theme.white};
-  width: 345px;
-  height: 345px;
+  background-color: ${props => props.theme.cardBackground};
   box-sizing: border-box;
   border: 4px solid;
+  width: 345px;
+  height: 345px;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 const StyledImage5 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   width: 345px;
   height: 345px;
   box-sizing: border-box;
   border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 `
 
 const StyledImage6 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   width: 345px;
   height: 345px;
   box-sizing: border-box;
   border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 20px 30px;
 `
 
 const StyledImage7 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   width: 345px;
   height: 345px;
   box-sizing: border-box;
   border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 20px 30px;
+  padding: 10px 20px;
 `
 
 const StyledImage8 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   width: 345px;
   height: 345px;
   box-sizing: border-box;
   border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 20px 30px;
+  padding: 40px 45px;
 `
 
 const StyledImage9 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   box-sizing: border-box;
   border: 4px solid;
   border-color: ${props => props.theme.primary};
@@ -192,22 +189,22 @@ function PartnerInstitutions () {
 
         <StyledAllImages2>
           <StyledImage4>
-            <IconImages imageName='CrazyCat' type='png' />
+            <IconImages imageName='CrazyCatOficial' type='svg' />
           </StyledImage4>
           <StyledImage5>
-            <IconImages imageName='JardimDasBorboletas' type='png' />
+            <IconImages imageName='JardimDasBorboletasOficial' type='svg' />
           </StyledImage5>
           <StyledImage6>
-            <IconImages imageName='Maestro' type='png' />
+            <IconImages imageName='MaestroOficial' type='svg' />
           </StyledImage6>
         </StyledAllImages2>
 
         <StyledAllImages3>
           <StyledImage7>
-            <IconImages imageName='RangoDeRua' type='png' />
+            <IconImages imageName='RangoDeRuaOficial' type='svg' />
           </StyledImage7>
           <StyledImage8>
-            <IconImages imageName='SocorroAosNecessitados' type='png' />
+            <IconImages imageName='SocorroOficial' type='svg' />
           </StyledImage8>
         </StyledAllImages3>
           <StyledImage9>
