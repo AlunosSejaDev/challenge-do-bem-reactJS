@@ -48,36 +48,42 @@ const StyledAllExercise = styled.div`
 `
 
 const StyledExercise1 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   box-sizing: border-box;
   border: 4px solid;
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 15px;
+  padding: 35px 45px;
+  width: 345px;
+  height: 385px;
 `
 
 const StyledExercise2 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   box-sizing: border-box;
   border: 4px solid;
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 15px;
+  padding: 10px 45px;
+  width: 345px;
+  height: 385px;
 `
 
 const StyledExercise3 = styled.div`
-  background-color: ${props => props.theme.white};
+  background-color: ${props => props.theme.cardBackground};
   box-sizing: border-box;
   border: 4px solid;
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 15px;
+  padding: 30px 15px;
+  width: 345px;
+  height: 385px;
 `
 
 const StyledSpecificGoals = styled.div`
   display: flex;
   flex-direction: column;
-  padding-top: 30px;
+  padding-top: 80px;
   align-items: center;
   gap: 20px;
   color: ${props => props.theme.white};
@@ -104,7 +110,7 @@ function MonthlyExercise () {
             <StyledAllExercise>
               <StyledAllGoalsExercise>
                 <StyledExercise1>
-                  <IconImages imageName='Lunge' type='svg' />                                        
+                  <IconImages imageName='CorridaMusc' type='svg' />                                        
                 </StyledExercise1>
                   <StyledSpecificGoals>
                   <p>Corrida ou caminhada</p>
@@ -115,7 +121,7 @@ function MonthlyExercise () {
               </StyledAllGoalsExercise>
               <StyledAllGoalsExercise>
                 <StyledExercise2>
-                  <IconImages imageName='Lunge' type='svg' />
+                  <IconImages imageName='Bike' type='svg' />
                 </StyledExercise2>
                 <StyledSpecificGoals>
                   <p>Bike</p>
