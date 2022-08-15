@@ -8,6 +8,7 @@ const StyledContainer = styled.div`
   flex-direction: column;
   align-items: center;
   margin-top: 150px;
+  gap: 25px;
 `
 
 const StyledTitle = styled.div`
@@ -59,6 +60,8 @@ const StyledImage1 = styled.div`
   background-color: ${props => props.theme.white};
   box-sizing: border-box;
   border: 4px solid;
+  width: 345px;
+  height: 345px;
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 15px;
@@ -67,6 +70,8 @@ const StyledImage2 = styled.div`
   background-color: ${props => props.theme.white};
   box-sizing: border-box;
   border: 4px solid;
+  width: 345px;
+  height: 345px;
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 5px 0;
@@ -80,8 +85,10 @@ const StyledImage2 = styled.div`
 
 const StyledImage3 = styled.div`
   background-color: ${props => props.theme.white};
+  width: 345px;
+  height: 345px;
   box-sizing: border-box;
-  border: 4px solid;
+  border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 20px 30px;
@@ -89,6 +96,8 @@ const StyledImage3 = styled.div`
 
 const StyledImage4 = styled.div`
   background-color: ${props => props.theme.white};
+  width: 345px;
+  height: 345px;
   box-sizing: border-box;
   border: 4px solid;
   border-color: ${props => props.theme.primary};
@@ -97,8 +106,10 @@ const StyledImage4 = styled.div`
 
 const StyledImage5 = styled.div`
   background-color: ${props => props.theme.white};
+  width: 345px;
+  height: 345px;
   box-sizing: border-box;
-  border: 4px solid;
+  border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 20px 30px;
@@ -106,8 +117,10 @@ const StyledImage5 = styled.div`
 
 const StyledImage6 = styled.div`
   background-color: ${props => props.theme.white};
+  width: 345px;
+  height: 345px;
   box-sizing: border-box;
-  border: 4px solid;
+  border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 20px 30px;
@@ -115,8 +128,10 @@ const StyledImage6 = styled.div`
 
 const StyledImage7 = styled.div`
   background-color: ${props => props.theme.white};
+  width: 345px;
+  height: 345px;
   box-sizing: border-box;
-  border: 4px solid;
+  border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 20px 30px;
@@ -124,8 +139,10 @@ const StyledImage7 = styled.div`
 
 const StyledImage8 = styled.div`
   background-color: ${props => props.theme.white};
+  width: 345px;
+  height: 345px;
   box-sizing: border-box;
-  border: 4px solid;
+  border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 20px 30px;
@@ -184,6 +201,7 @@ function PartnerInstitutions () {
             <IconImages imageName='Maestro' type='png' />
           </StyledImage6>
         </StyledAllImages2>
+
         <StyledAllImages3>
           <StyledImage7>
             <IconImages imageName='RangoDeRua' type='png' />
