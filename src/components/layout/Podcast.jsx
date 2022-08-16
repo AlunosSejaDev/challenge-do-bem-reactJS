@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 import H1 from '../typograph/H1'
 import H4 from '../typograph/H4'
+
 import IconImages from '../icons/IconImages'
 
 const StyledContainer = styled.div`
@@ -28,6 +29,10 @@ const StyledTitle = styled.div`
   text-align: center;
   justify-content: center;
   gap: 20px;
+  color: #016B9B;
+  font-weight: bold;
+  font-size: 30px;
+  
 
   @media (max-width: 700px) {
     display: flex;
@@ -68,7 +73,7 @@ function Podcast() {
         <StyledTitle>
           <H1>Saiba mais sobre nós!</H1>
           <H4>Já pensou que bacana você receber um incentivo pra treinar – e com isso ganhar mais saúde – e ainda ajudar o próximo? Pois essa é a proposta de uma iniciativa muito legal chamada:</H4>
-          <H1>Challenge do Bem</H1>
+          <p>Challenge do Bem</p>
         </StyledTitle>
           <StyledImage>
             <IconImages imageName='MundoLivre2' type='png' />
