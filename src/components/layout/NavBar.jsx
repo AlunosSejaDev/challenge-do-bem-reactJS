@@ -1,52 +1,35 @@
+import React from 'react'
 import styled from 'styled-components'
 
-const StyledNavBar = styled.div`
-  background-color: ${props => props.theme.primary};
-  height: 70px;
-  display: flex;
-  align-items: center;
-  padding: 10px 20px;
-  gap: 100px;
-  position: fixed;
+import Burguer from './Burguer'
+import IconImages from '../icons/IconImages'
+
+const StyledNavBar = styled.nav`
   width: 100%;
+  height: 85px;
+  padding: 10px 0;
+  background-color: ${props => props.theme.primary};
+  position: fixed;
   background: rgba(1, 107, 155, 0.70);
   backdrop-filter: blur(14px);
+  display: flex;
+  gap: 30px;
+`
 
-  @media (max-width: 1500px) {
-    padding: 0 20px;
-    gap: 60px;
-    height: 100px;
-    display: flex;
-  }
-
-  @media (max-width: 1200px) {
-    padding: 0 20px;
-    gap: 60px;
-    height: 130px;
-    display: flex;
-  }
-
-  @media (max-width: 900px) {
-    padding: 0 20px;
-    gap: 20px;
-    height: 350px;
-    display: flex;
-    flex-direction: column;
-  }
+const StyledHeaderIcon = styled.div`
+  display: flex;
+  align-items: center;
+  padding: 20px 30px;
 `
 
 function NavBar () {
   return(
-<>
     <StyledNavBar>
-          <img src="/CB-Icon-Header.svg" alt="Mini-logo-CB" width='100px'/>
-          <a href="#"> Home </a>
-          <a href="#"> Sobre nós </a>
-          <a href="#"> Instituições parceiras </a>
-          <a href="#"> Desafio do mês </a>
-          <a href="#"> Saiba mais </a>             
+      <StyledHeaderIcon>
+        <IconImages imageName='CB-Icon-Header' type='svg' />
+      </StyledHeaderIcon>
+      <Burguer />
     </StyledNavBar>
-</>  
   )
 }
 
