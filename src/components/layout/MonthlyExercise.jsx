@@ -147,7 +147,6 @@ function MonthlyExercise () {
               </StyledTitleMonthlyExercise>
       </StyledMonthlyContainer>
     </>
-    
   )
 }
 

@@ -10,10 +10,15 @@ const StyledTitle = styled.div`
   justify-content: center;
   margin: 50px 0;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
   gap: 80px;
-  color: ${props => props.theme.white};
+  width: 700px;
+  color: ${props => props.theme.primary};
   align-items: center;
+
+  @media (max-width: 700px) {
+    width: 320px;
+  }
 `
 
 const StyledContainer = styled.div`

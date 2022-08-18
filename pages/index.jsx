@@ -33,12 +33,14 @@ const Form = styled.form`
   flex-direction: column;
   align-items: center;
   margin: 25px 0;
+  color: ${props => props.theme.white};
 `
 
 const Text = styled.p`
   display: flex;
   gap: 20px;
   justify-content: center;
+  color: ${props => props.theme.white};
 
   @media (max-width: ${WIDTH_BREAK}) {
     display: flex;
@@ -56,9 +58,9 @@ function HomePage () {
             <Text>
               <H2># We</H2><H1>ACHIEVE,</H1><H2>we</H2><H1>DONATE!</H1>
             </Text>
-                <H5> Nos ajude a ajudar pessoas que necessitam! </H5>
+                <H5>Nos ajude a ajudar pessoas que necessitam!</H5>
                   <Form>
-                    <Button> Saiba mais! </Button>
+                    <Button>Saiba mais!</Button>
                   </Form>
         </FormContainer>
       </ImageCb>

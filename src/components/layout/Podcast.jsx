@@ -11,7 +11,7 @@ const StyledContainer = styled.div`
   align-items: center;
   text-align: center;
   justify-content: center;
-  margin: 150px 220px;
+  margin: 150px 420px;
   gap: 80px;
   border: 5px solid #016B9B;
   border-radius: 50px;
@@ -29,7 +29,7 @@ const StyledTitle = styled.div`
   text-align: center;
   justify-content: center;
   gap: 20px;
-  color: #016B9B;
+  color: ${props => props.theme.primary};
   font-weight: bold;
   font-size: 30px;
   

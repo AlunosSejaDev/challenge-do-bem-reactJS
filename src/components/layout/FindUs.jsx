@@ -24,6 +24,7 @@ const StyledWhereAreUs = styled.div`
   flex-direction: column;
   gap: 40px;
   text-align: center;
+  color: ${props => props.theme.white};
 
   @media (max-width: 1140px) {
     display: flex;
