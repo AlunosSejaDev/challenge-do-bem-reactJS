@@ -7,7 +7,7 @@ const StyledFooter = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
+  color: ${props => props.theme.white};
   background-color: ${props => props.theme.primary};
   width: 100%;
   height: 105px;
