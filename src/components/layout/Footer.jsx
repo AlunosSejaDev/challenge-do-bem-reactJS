@@ -12,6 +12,8 @@ const StyledFooter = styled.div`
   width: 100%;
   height: 105px;
   margin-top: 2em;
+  background: rgba(1, 107, 155, 0.70);
+  backdrop-filter: blur(14px);
 
   @media (max-width: 500px) {
     display: flex;
