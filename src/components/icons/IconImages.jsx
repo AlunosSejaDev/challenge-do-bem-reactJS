@@ -3,7 +3,6 @@ function IconImages ({ imageName, type, ...props }) {
     <>
     <img src={`/images/${imageName}.${type}`} />
     </>
-    
   )
 }
 

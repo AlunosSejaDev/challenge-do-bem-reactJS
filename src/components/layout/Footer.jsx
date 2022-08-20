@@ -32,7 +32,7 @@ function Footer () {
     <>
       <StyledFooter>
         <H5>
-            Copyright@2022 - Challenge do bem - Todos os direitos reservados - Desenvolvido por @adrianofront | @devbpatriciocosta | @ruanL-Dev
+          Copyright@2022 - Challenge do bem - Todos os direitos reservados - Desenvolvido por @adrianofront | @devbpatriciocosta | @ruanL-Dev
         </H5>
       </StyledFooter>
     </>
