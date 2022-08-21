@@ -4,7 +4,8 @@ const theme = {
   white: '#D9D9D9',
   background: '#202020',
   generalBorder: '#373435',
-  cardBackground: '#D9D9D9'
+  cardBackground: '#D9D9D9',
+  secondary: '#373435'
 }
 
 export default theme

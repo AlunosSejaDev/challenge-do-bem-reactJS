@@ -9,7 +9,7 @@ import H5 from '../src/components/typograph/H5'
 
 import Button from '../src/components/inputs/Button'
 
-import Icon from '../src/components/icons/Icon'
+import IconImages from '../src/components/icons/IconImages'
 import AboutUs from '../src/components/layout/AboutUs'
 import PartnerInstitutions from '../src/components/layout/PartnerInstitutions'
 import LineBar from '../src/components/layout/LineBar'
@@ -54,14 +54,14 @@ function HomePage () {
       <NavBar />
       <ImageCb>
         <FormContainer>
-          <Icon />
+          <IconImages imageName='ChallengeDoBem' type='svg' />
             <Text>
               <H2># We</H2><H1>ACHIEVE,</H1><H2>we</H2><H1>DONATE!</H1>
             </Text>
-                <H5>Nos ajude a ajudar pessoas que necessitam!</H5>
-                  <Form>
-                    <Button>Saiba mais!</Button>
-                  </Form>
+            <H5>Nos ajude a ajudar pessoas que necessitam!</H5>
+              <Form>
+                <Button>Saiba mais!</Button>
+              </Form>
         </FormContainer>
       </ImageCb>
         <LineBar />

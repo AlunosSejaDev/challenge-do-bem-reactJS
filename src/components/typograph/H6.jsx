@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const H6 = styled.h6`
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
 `
 
