@@ -15,6 +15,11 @@ const StyledUl = styled.ul`
     
     li {
       padding: 18px 10px;
+      transition: all 0.3s;
+
+        :hover {
+        color: ${props => props.theme.primaryHover};
+      }
     }
 
     @media (max-width: 1128px) {

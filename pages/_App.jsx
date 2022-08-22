@@ -19,6 +19,7 @@ const GlobalStyle = createGlobalStyle`
   text-decoration: none;
   transition: all 0.3s;
 }
+
 a:hover {
   color: ${props => props.theme.primaryHover};
 }
