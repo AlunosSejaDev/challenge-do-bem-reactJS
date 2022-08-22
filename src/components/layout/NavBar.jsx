@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 import Burguer from './Burguer'
-import IconImages from '../icons/IconImages'
+import IconImages from '../Icones/IconImages'
 
 const StyledNavBar = styled.nav`
   width: 100%;

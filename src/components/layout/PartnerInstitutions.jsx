@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 import H1 from '../typograph/H1'
-import IconImages from '../icons/IconImages'
+import IconImages from '../Icones/IconImages'
 
 const StyledContainer = styled.div`
   display: flex;

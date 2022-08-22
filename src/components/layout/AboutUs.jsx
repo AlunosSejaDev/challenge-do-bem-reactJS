@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import H1 from '../typograph/H1'
 import H3 from '../typograph/H3'
 
-import IconImages from '../icons/IconImages'
+import IconImages from '../Icones/IconImages'
 
 const StyledTitle = styled.div`
   display: flex;
