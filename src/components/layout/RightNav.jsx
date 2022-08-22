@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { Link } from "react-scroll"
 
 const StyledUl = styled.ul`
     list-style: none;
@@ -45,11 +46,24 @@ const StyledUl = styled.ul`
 const RightNav = ({ open }) => {
   return (
     <StyledUl open={open}>
-      <li>Home</li>
-      <li>Sobre nós</li>
-      <li>Instituições parceiras</li>
-      <li>Desafio do mês</li>
-      <li>Saiba mais</li>
+      <li>
+        <Link to='home' spy={true} smooth={true} offset={50} duration={1000} >Home</Link>
+      </li>
+      <li>
+        <Link to='about' spy={true} smooth={true} offset={0} duration={1000} >Sobre nós</Link>
+      </li>
+      <li>
+        <Link to='institutions' spy={true} smooth={true} offset={10} duration={1000} >Instituições parceiras</Link>
+      </li>
+      <li>
+        <Link to='knowMore' spy={true} smooth={true} offset={0} duration={1000} >Saiba mais</Link>
+      </li>
+      <li>
+        <Link to='monthlyChallenges' spy={true} smooth={true} offset={0} duration={1000} >Desafio do mês</Link>
+      </li>
+      <li>
+        <Link to='contact' spy={true} smooth={true} offset={50} duration={1000} >Fale conosco</Link>
+      </li>
     </StyledUl>
   )
 }

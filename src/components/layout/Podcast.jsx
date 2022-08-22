@@ -13,11 +13,12 @@ const StyledContainer = styled.div`
   justify-content: center;
   margin: 150px 420px;
   gap: 80px;
+  box-sizing: border-box;
   border: 5px solid #016B9B;
   border-radius: 50px;
   padding: 30px;
 
-  @media (max-width: 800px) {
+  @media (max-width: 1480px) {
     border: none;
     margin: 0;
   }
@@ -45,7 +46,7 @@ const StyledImage = styled.div`
   @media (max-width: 850px) {
     display: flex;
     flex-direction: column;
-    width: 370px;
+    width: 270px;
   }
 
   @media (max-width: 825px) {
@@ -78,7 +79,7 @@ function Podcast() {
           <StyledImage>
             <IconImages imageName='MundoLivre2' type='png' />
           </StyledImage>
-            <H4>Ouça agora o PodCast sobre o CB clicando <a href=''>AQUI!</a></H4>
+            <H4>Ouça agora o PodCast sobre o CB clicando <a href='https://mundolivrefm.com.br/podcasts/rock-and-run-64/' target='_blank'>AQUI!</a></H4>
       </StyledContainer>
   )
 }
