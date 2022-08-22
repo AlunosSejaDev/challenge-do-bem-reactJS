@@ -36,7 +36,7 @@ const Form = styled.form`
   color: ${props => props.theme.white};
 `
 
-const Text = styled.p`
+const Text = styled.div`
   display: flex;
   gap: 20px;
   justify-content: center;
@@ -56,13 +56,18 @@ function HomePage () {
         <FormContainer>
           <IconImages imageName='ChallengeDoBem' type='svg' />
             <Text>
-              <H2># We</H2><H1>ACHIEVE,</H1><H2>we</H2><H1>DONATE!</H1>
+              <H2># We</H2>
+              <H1>ACHIEVE,</H1>
+              <H2>we</H2>
+              <H1>DONATE!</H1>
             </Text>
+
             <H5>Nos ajude a ajudar pessoas que necessitam!</H5>
+
               <Form>
                 <Button>Saiba mais!</Button>
               </Form>
-        </FormContainer>
+        </FormContainer>   
       </ImageCb>
         <LineBar />
           <AboutUs />
