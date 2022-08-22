@@ -7,7 +7,7 @@ import H1 from '../src/components/typograph/H1'
 import H2 from '../src/components/typograph/H2'
 import H5 from '../src/components/typograph/H5'
 
-import IconImages from '../src/components/icons/IconImages'
+import IconImages from '../src/components/Icones/IconImages'
 import AboutUs from '../src/components/layout/AboutUs'
 import PartnerInstitutions from '../src/components/layout/PartnerInstitutions'
 import LineBar from '../src/components/layout/LineBar'
