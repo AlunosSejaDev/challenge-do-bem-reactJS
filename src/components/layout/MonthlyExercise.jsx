@@ -6,10 +6,11 @@ import IconImages from '../icons/IconImages'
 const StyledMonthlyHeader = styled.div`
   display: flex;
   justify-content: center;
-  padding: 60px;
+  padding: 120px;
 
   @media (max-width: 1548px) {
     display: none;
+    padding: 100px;
   }
 `
 

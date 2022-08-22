@@ -20,6 +20,7 @@ const StyledHeaderIcon = styled.div`
   display: flex;
   align-items: center;
   padding: 20px 30px;
+  cursor: pointer;
 `
 
 function NavBar () {

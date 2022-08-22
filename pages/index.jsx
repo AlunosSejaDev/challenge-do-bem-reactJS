@@ -7,8 +7,6 @@ import H1 from '../src/components/typograph/H1'
 import H2 from '../src/components/typograph/H2'
 import H5 from '../src/components/typograph/H5'
 
-import Button from '../src/components/inputs/Button'
-
 import IconImages from '../src/components/icons/IconImages'
 import AboutUs from '../src/components/layout/AboutUs'
 import PartnerInstitutions from '../src/components/layout/PartnerInstitutions'
@@ -28,14 +26,6 @@ const FormContainer = styled.div`
   gap: 60px;
 `
 
-const Form = styled.form`
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 25px 0;
-  color: ${props => props.theme.white};
-`
-
 const Text = styled.div`
   display: flex;
   gap: 20px;
@@ -52,6 +42,7 @@ function HomePage () {
   return (
     <>
       <NavBar />
+      <div id='home'>
       <ImageCb>
         <FormContainer>
           <IconImages imageName='ChallengeDoBem' type='svg' />
@@ -61,25 +52,31 @@ function HomePage () {
               <H2>we</H2>
               <H1>DONATE!</H1>
             </Text>
-
             <H5>Nos ajude a ajudar pessoas que necessitam!</H5>
-
-              <Form>
-                <Button>Saiba mais!</Button>
-              </Form>
         </FormContainer>   
       </ImageCb>
+      </div>
+      <div id='about'>
         <LineBar />
-          <AboutUs />
+        <AboutUs />
+      </div>
+      <div id='institutions'>
         <LineBar />
-          <PartnerInstitutions />
+        <PartnerInstitutions />
+      </div>
+      <div id='knowMore'>
         <LineBar />
-          <Podcast />
+        <Podcast />
+      </div>
+      <div id='monthlyChallenges'>
         <LineBar />
-          <MonthlyExercise />
+        <MonthlyExercise />
+      </div>
+      <div id='contact'>
         <StyledSecondaryLineBarContainer />
         <FindUs />
         <Footer />
+      </div>
     </>
   )
 }
