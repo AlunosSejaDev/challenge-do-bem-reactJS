@@ -31,8 +31,10 @@ function Footer () {
   return (
     <>
       <StyledFooter>
-        <H5>
-          Copyright@2022 - Challenge do bem - Todos os direitos reservados - Desenvolvido por @adrianofront | @devbpatriciocosta | @ruanL-Dev
+        <H5> Copyright@2022 - Challenge do bem - Todos os direitos reservados - Desenvolvido por 
+          <a href='https://www.linkedin.com/in/brunopatricioc/' target='_blank'> @devbpatriciocosta </a> | 
+          <a href='https://www.linkedin.com/in/ruanl-dev/' target='_blank'> @ruanL-Dev </a> | 
+          <a href='https://www.linkedin.com/in/adrianodeveloper/' target='blank'> @adrianofront</a>          
         </H5>
       </StyledFooter>
     </>
