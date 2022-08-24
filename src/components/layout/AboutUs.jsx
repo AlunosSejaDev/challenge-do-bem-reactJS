@@ -66,7 +66,7 @@ function AboutUs () {
         <StyledTitle>
           <H1>Sobre nós!</H1>
             <H3>“Nós somos uma AÇÃO SOCIAL que teve início em 2021 com a intenção de atingir objetivos esportivos, um  "challenge”.” </H3>
-              <H3>“Todos os meses damos se atingirmos o objetivo, caso contrário nós TRIPLICAMOS a doação!”</H3>
+              <H3>“Todos os meses doamos se atingirmos o objetivo, caso contrário nós TRIPLICAMOS a doação!”</H3>
             </StyledTitle>  
               <StyledImages>
                 <IconImages imageName="CB-Donation" type="svg" />
