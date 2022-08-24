@@ -57,6 +57,13 @@ const StyledExercise1 = styled.div`
   padding: 35px 45px;
   width: 345px;
   height: 385px;
+
+  @media (max-width: 460px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledExercise2 = styled.div`
@@ -68,6 +75,13 @@ const StyledExercise2 = styled.div`
   padding: 10px 45px;
   width: 345px;
   height: 385px;
+
+  @media (max-width: 460px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledExercise3 = styled.div`
@@ -79,6 +93,13 @@ const StyledExercise3 = styled.div`
   padding: 30px 15px;
   width: 345px;
   height: 385px;
+
+  @media (max-width: 460px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledSpecificGoals = styled.div`

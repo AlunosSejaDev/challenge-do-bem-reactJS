@@ -20,10 +20,10 @@ import Footer from '../src/components/layout/Footer'
 const WIDTH_BREAK = '800px'
 
 const FormContainer = styled.div`
-  margin: 360px 0;
+  margin: 100px 0;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: 50px;
 `
 
 const Text = styled.div`

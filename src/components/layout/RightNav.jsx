@@ -34,6 +34,7 @@ const StyledUl = styled.ul`
       right: 0;
       height: 100vh;
       width: 300px;
+      gap: 20px;
       padding-top: 3.5rem;
       transition: transform 0.3s ease-in-out;
 
@@ -56,10 +57,10 @@ const RightNav = ({ open }) => {
         <Link to='institutions' spy={true} smooth={true} offset={10} duration={1000} >Instituições parceiras</Link>
       </li>
       <li>
-        <Link to='knowMore' spy={true} smooth={true} offset={0} duration={1000} >Saiba mais</Link>
+        <Link to='knowMore' spy={true} smooth={true} offset={-70} duration={1000} >Saiba mais</Link>
       </li>
       <li>
-        <Link to='monthlyChallenges' spy={true} smooth={true} offset={0} duration={1000} >Desafio do mês</Link>
+        <Link to='monthlyChallenges' spy={true} smooth={true} offset={-25} duration={1000} >Desafio do mês</Link>
       </li>
       <li>
         <Link to='contact' spy={true} smooth={true} offset={50} duration={1000} >Fale conosco</Link>

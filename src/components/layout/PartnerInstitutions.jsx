@@ -62,6 +62,13 @@ const StyledImage1 = styled.div`
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 15px 40px;
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 const StyledImage2 = styled.div`
   background-color: ${props => props.theme.cardBackground};
@@ -72,6 +79,13 @@ const StyledImage2 = styled.div`
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 5px 10px;
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledImage3 = styled.div`
@@ -83,6 +97,13 @@ const StyledImage3 = styled.div`
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 20px 60px;
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledImage4 = styled.div`
@@ -96,6 +117,13 @@ const StyledImage4 = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledImage5 = styled.div`
@@ -109,6 +137,13 @@ const StyledImage5 = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledImage6 = styled.div`
@@ -119,6 +154,13 @@ const StyledImage6 = styled.div`
   border: 4px solid;  
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledImage7 = styled.div`
@@ -130,6 +172,13 @@ const StyledImage7 = styled.div`
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 10px 20px;
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledImage8 = styled.div`
@@ -141,6 +190,13 @@ const StyledImage8 = styled.div`
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
   padding: 40px 45px;
+
+  @media (max-width: 360px) {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+  }
 `
 
 const StyledImage9 = styled.div`
@@ -160,6 +216,12 @@ const StyledImage9 = styled.div`
   }
 
   @media (max-width: 500px) {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+  }
+
+  @media (max-width: 435px) {
     display: flex;
     flex-direction: column;
     width: 300px;

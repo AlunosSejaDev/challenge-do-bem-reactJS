@@ -8,7 +8,7 @@ import IconImages from '../Icones/IconImages'
 const StyledTitle = styled.div`
   display: flex;
   justify-content: center;
-  margin: 50px 0;
+  margin: 10px 0;
   flex-direction: column;
   text-align: center;
   gap: 80px;
@@ -49,7 +49,13 @@ const StyledImages = styled.div`
   @media (max-width: 500px) {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 300px;
+  }
+
+  @media (max-width: 330px) {
+    display: flex;
+    flex-direction: column;
+    width: 270px;
   }
 `
 
@@ -57,9 +63,9 @@ function AboutUs () {
   return(
     <>
       <StyledContainer>
-            <StyledTitle>
-              <H1>Sobre nós!</H1>
-              <H3>“Nós somos uma AÇÃO SOCIAL que teve início em 2021 com a intenção de atingir objetivos esportivos, um  "challenge”.” </H3>
+        <StyledTitle>
+          <H1>Sobre nós!</H1>
+            <H3>“Nós somos uma AÇÃO SOCIAL que teve início em 2021 com a intenção de atingir objetivos esportivos, um  "challenge”.” </H3>
               <H3>“Todos os meses damos se atingirmos o objetivo, caso contrário nós TRIPLICAMOS a doação!”</H3>
             </StyledTitle>  
               <StyledImages>
