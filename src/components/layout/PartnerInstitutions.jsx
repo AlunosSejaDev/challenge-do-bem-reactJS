@@ -224,6 +224,12 @@ const StyledImage9 = styled.div`
   @media (max-width: 435px) {
     display: flex;
     flex-direction: column;
+    width: 350px;
+  }
+
+  @media (max-width: 335px) {
+    display: flex;
+    flex-direction: column;
     width: 300px;
   }
 `
