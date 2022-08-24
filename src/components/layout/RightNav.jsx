@@ -34,7 +34,7 @@ const StyledUl = styled.ul`
       right: 0;
       height: 100vh;
       width: 300px;
-      gap: 20px;
+      gap: 10px;
       padding-top: 3.5rem;
       transition: transform 0.3s ease-in-out;
 
