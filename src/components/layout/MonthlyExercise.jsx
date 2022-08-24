@@ -62,7 +62,7 @@ const StyledExercise1 = styled.div`
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 330px;
+    height: 340px;
   }
 `
 
@@ -80,7 +80,7 @@ const StyledExercise2 = styled.div`
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 330px;
+    height: 340px;
   }
 `
 
@@ -98,7 +98,8 @@ const StyledExercise3 = styled.div`
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 330px;
+    height: 340px;
+    padding: 50px 25px;
   }
 `
 
