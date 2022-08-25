@@ -62,7 +62,8 @@ const StyledExercise1 = styled.div`
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 360px;
+    height: 410px;
+    padding: 20px 10px;
   }
 `
 
@@ -80,7 +81,8 @@ const StyledExercise2 = styled.div`
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 360px;
+    height: 410px;
+    padding: 0px 10px;
   }
 `
 
@@ -90,7 +92,7 @@ const StyledExercise3 = styled.div`
   border: 4px solid;
   border-color: ${props => props.theme.primary};
   border-radius: 50px;
-  padding: 30px 15px;
+  padding: 20px 65px;
   width: 345px;
   height: 385px;
 
@@ -98,8 +100,8 @@ const StyledExercise3 = styled.div`
     display: flex;
     flex-direction: column;
     width: 300px;
-    height: 360px;
-    padding: 50px 25px;
+    height: 410px;
+    padding: 0px 25px;
   }
 `
 
@@ -147,21 +149,21 @@ function MonthlyExercise () {
                   <IconImages imageName='Bike' type='svg' />
                 </StyledExercise2>
                 <StyledSpecificGoals>
-                  <p>Bike</p>
-                  <p>🥇OURO - 150.000m</p>
-                  <p>🥈PRATA - 100.000m</p>
-                  <p>🥉BRONZE - 50.000m</p>   
+                  <p>Bike Assalt</p>
+                  <p>🥇OURO - 1.000 cal</p>
+                  <p>🥈PRATA - 750 cal</p>
+                  <p>🥉BRONZE - 500 cal</p>   
                 </StyledSpecificGoals> 
               </StyledAllGoalsExercise>
               <StyledAllGoalsExercise>
                 <StyledExercise3> 
-                  <IconImages imageName='Lunge' type='svg' />
+                  <IconImages imageName='Real-Bike' type='svg' />
                 </StyledExercise3>
                 <StyledSpecificGoals>
-                    <p>Lunge</p>
-                    <p>🥇OURO - 1500 LUNGE</p>
-                    <p>🥈PRATA - 1000 LUNGE</p>
-                    <p>🥉BRONZE - 500 LUNGE</p>   
+                    <p>Bike</p>
+                    <p>🥇OURO - 150.000m</p>
+                    <p>🥈PRATA - 100.000m</p>
+                    <p>🥉BRONZE - 50.000m</p>   
                   </StyledSpecificGoals> 
               </StyledAllGoalsExercise>
             </StyledAllExercise>
