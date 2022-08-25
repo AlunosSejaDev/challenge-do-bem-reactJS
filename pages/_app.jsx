@@ -15,13 +15,31 @@ const GlobalStyle = createGlobalStyle`
  a {
   color: ${props => props.theme.white};
   font-weight: bold;
-  font-size: 24px;
+  font-size: 28px;
   text-decoration: none;
   transition: all 0.3s;
+  position: relative;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
 }
 
-a:hover {
+a:after{
+  content: "";
+  position: absolute;
+  background-color: ${props => props.theme.primaryHover};
+  height: 6px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+
+a:hover{
   color: ${props => props.theme.primaryHover};
+}
+
+a:hover:after{
+  width: 100%;
 }
 `
 

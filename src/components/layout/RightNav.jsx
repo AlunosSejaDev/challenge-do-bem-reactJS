@@ -7,7 +7,7 @@ const StyledUl = styled.ul`
     display: flex;
     flex-flow: row nowrap;
     color: ${props => props.theme.white};
-    font-size: 38px;
+    font-size: 18px;
     font-weight: bold;
     gap: 50px;
     align-items: center;
@@ -17,10 +17,6 @@ const StyledUl = styled.ul`
     li {
       padding: 18px 10px;
       transition: all 0.3s;
-
-        :hover {
-        color: ${props => props.theme.primaryHover};
-      }
     }
 
     @media (max-width: 1128px) {
