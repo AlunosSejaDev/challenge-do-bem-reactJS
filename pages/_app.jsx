@@ -34,10 +34,6 @@ a:after{
   transition: 0.3s;
 }
 
-a:hover{
-  color: ${props => props.theme.white};
-}
-
 a:hover:after{
   width: 100%;
 }

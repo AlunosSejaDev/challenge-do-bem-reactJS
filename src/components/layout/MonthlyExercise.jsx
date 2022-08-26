@@ -173,7 +173,7 @@ function MonthlyExercise () {
               </StyledAllGoalsExercise>
             </StyledAllExercise>
               <StyledTitleMonthlyExercise>
-              <a href='https://chat.whatsapp.com/LIkpImaPlpCLwwO1sB8EiW' target='_blank'>Inscreva-se AGORA!</a>
+                <a href='https://chat.whatsapp.com/LIkpImaPlpCLwwO1sB8EiW' target='_blank'>Inscreva-se AGORA!</a>
               </StyledTitleMonthlyExercise>
       </StyledMonthlyContainer>
     </>
