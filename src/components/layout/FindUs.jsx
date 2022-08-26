@@ -41,8 +41,12 @@ const StyledContact = styled.div`
 const StyledWhats = styled.div`
   display: flex;
   flex-direction: row;
-  width: 290px;
-  gap: 20px;
+  width: 295px;
+  gap: 10px;
+  
+  @media (max-width: 640px) {
+    display: none;
+  }
 `
 
 const StyledEmail = styled.div`
@@ -64,33 +68,33 @@ const StyledInstagram = styled.div`
 
 function FindUs () {
   return(
-<>
-<StyledContainerContact>
-    <StyledWhereAreUs>
-      <H1>
-        Onde estamos
-      </H1>
-      <H3>
-        Curitiba - PR
-      </H3>
-    </StyledWhereAreUs>
-    <StyledContact>
-        <H1>Contato</H1>
-        <StyledWhats>
-          <IconImages imageName='WhatsLogo' type='svg' />
-          <H3> (41) 99727-5152</H3>
-        </StyledWhats>
-        <StyledEmail>
-          <IconImages imageName='EmailLogo' type='svg' />
-          <H3> challengedobem@gmail.com</H3>
-        </StyledEmail>
-        <StyledInstagram> 
-          <IconImages imageName='InstagramLogo' type='svg' />
-          <H3> @challengedobem</H3>
-        </StyledInstagram>
-    </StyledContact>
-</StyledContainerContact>
-</>
+    <>
+      <StyledContainerContact>
+          <StyledWhereAreUs>
+            <H1>
+              Onde estamos
+            </H1>
+            <H3>
+              Curitiba - PR
+            </H3>
+          </StyledWhereAreUs>
+          <StyledContact>
+              <H1>Contato</H1>
+              <StyledWhats>
+                <IconImages imageName='facebookIcon' type='svg' />
+                <H3>facebook.com/challengedobem</H3>
+              </StyledWhats>
+              <StyledEmail>
+                <IconImages imageName='EmailLogo' type='svg' />
+                <H3> challengedobem@gmail.com</H3>
+              </StyledEmail>
+              <StyledInstagram> 
+                <IconImages imageName='InstagramLogo' type='svg' />
+                <H3> @challengedobem</H3>
+              </StyledInstagram>
+          </StyledContact>
+      </StyledContainerContact>
+    </>
   )
 }
 

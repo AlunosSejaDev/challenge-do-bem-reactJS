@@ -15,7 +15,7 @@ const GlobalStyle = createGlobalStyle`
  a {
   color: ${props => props.theme.white};
   font-weight: bold;
-  font-size: 28px;
+  font-size: 24px;
   text-decoration: none;
   transition: all 0.3s;
   position: relative;
@@ -35,7 +35,7 @@ a:after{
 }
 
 a:hover{
-  color: ${props => props.theme.primaryHover};
+  color: ${props => props.theme.white};
 }
 
 a:hover:after{
