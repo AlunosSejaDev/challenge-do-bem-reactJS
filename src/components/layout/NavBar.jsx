@@ -6,7 +6,7 @@ import IconImages from '../Icones/IconImages'
 
 const StyledNavBar = styled.nav`
   width: 100%;
-  height: 85px;
+  height: 80px;
   padding: 10px 0;
   background-color: ${props => props.theme.primary};
   position: fixed;

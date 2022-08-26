@@ -5,17 +5,15 @@ import { Link } from "react-scroll"
 const StyledUl = styled.ul`
     list-style: none;
     display: flex;
-    flex-flow: row nowrap;
     color: ${props => props.theme.white};
-    font-size: 18px;
-    font-weight: bold;
     gap: 50px;
     align-items: center;
-    text-align: center;
     cursor: pointer;
     
     li {
-      padding: 18px 10px;
+      display: flex;
+      text-align: center;
+      justify-content: center;
       transition: all 0.3s;
     }
 
