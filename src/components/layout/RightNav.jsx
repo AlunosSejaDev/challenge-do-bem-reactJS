@@ -28,7 +28,7 @@ const StyledUl = styled.ul`
       right: 0;
       height: 100vh;
       width: 300px;
-      gap: 10px;
+      gap: 60px;
       padding-top: 3.5rem;
       transition: transform 0.3s ease-in-out;
 
@@ -42,22 +42,22 @@ const RightNav = ({ open }) => {
   return (
     <StyledUl open={open}>
       <li>
-        <Link to='home' spy={true} smooth={true} offset={50} duration={1000} >Home</Link>
+        <Link to='home' smooth={true} offset={0} duration={800} >Home</Link>
       </li>
       <li>
-        <Link to='about' spy={true} smooth={true} offset={0} duration={1000} >Sobre nós</Link>
+        <Link to='about' smooth={true} offset={-10} duration={800} >Sobre nós</Link>
       </li>
       <li>
-        <Link to='institutions' spy={true} smooth={true} offset={10} duration={1000} >Instituições parceiras</Link>
+        <Link to='institutions' smooth={true} offset={10} duration={800} >Instituições parceiras</Link>
       </li>
       <li>
-        <Link to='knowMore' spy={true} smooth={true} offset={-70} duration={1000} >Saiba mais</Link>
+        <Link to='knowMore' smooth={true} offset={-70} duration={800} >Saiba mais</Link>
       </li>
       <li>
-        <Link to='monthlyChallenges' spy={true} smooth={true} offset={-25} duration={1000} >Desafio do mês</Link>
+        <Link to='monthlyChallenges' smooth={true} offset={-25} duration={800} >Desafio do mês</Link>
       </li>
       <li>
-        <Link to='contact' spy={true} smooth={true} offset={50} duration={1000} >Fale conosco</Link>
+        <Link to='contact' smooth={true} offset={50} duration={800} >Fale conosco</Link>
       </li>
     </StyledUl>
   )

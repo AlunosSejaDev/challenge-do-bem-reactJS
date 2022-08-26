@@ -35,7 +35,7 @@ a:after{
 }
 
 a:hover{
-  color: ${props => props.theme.primaryHover};
+  color: ${props => props.theme.white};
 }
 
 a:hover:after{

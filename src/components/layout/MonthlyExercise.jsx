@@ -19,16 +19,21 @@ const StyledMonthlyContainer = styled.div`
   flex-direction: column;
   align-items: center;
 `
-const StyledTitleMonthlyExercise = styled.button`
-  display: flex;
-  justify-content: center;
-  margin: 80px 80px;
-  font-size: 48px;
-  font-weight: bold;
-  background-color: ${props => props.theme.background};
+
+const StyledTitleMonthlyExercise = styled.div`
+  a{
+    display: flex;
+    justify-content: center;
+    margin: 80px 80px;
+    font-size: 48px;
+    font-weight: bold;
+    background-color: ${props => props.theme.background};
+    color: ${props => props.theme.primary};
+  }
+
+  a:hover{
   color: ${props => props.theme.primary};
-  border: none;
-  cursor: pointer;
+}
   
   @media (max-width: 700px) {
     display: flex;
@@ -168,7 +173,7 @@ function MonthlyExercise () {
               </StyledAllGoalsExercise>
             </StyledAllExercise>
               <StyledTitleMonthlyExercise>
-                <p>Inscreva-se agora!</p>
+              <a href='https://chat.whatsapp.com/LIkpImaPlpCLwwO1sB8EiW' target='_blank'>Inscreva-se AGORA!</a>
               </StyledTitleMonthlyExercise>
       </StyledMonthlyContainer>
     </>

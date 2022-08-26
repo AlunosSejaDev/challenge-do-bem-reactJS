@@ -4,6 +4,7 @@ import H1 from '../typograph/H1'
 import H4 from '../typograph/H4'
 
 import IconImages from '../Icones/IconImages'
+import H5 from '../typograph/H5'
 
 const StyledContainer = styled.div`
   display: flex;
@@ -73,13 +74,13 @@ function Podcast() {
     <StyledContainer>
         <StyledTitle>
           <H1>Saiba mais sobre nós!</H1>
-          <H4>Já pensou que bacana você receber um incentivo pra treinar – e com isso ganhar mais saúde – e ainda ajudar o próximo? Pois essa é a proposta de uma iniciativa muito legal chamada:</H4>
+          <H5>Já pensou que bacana você receber um incentivo pra treinar – e com isso ganhar mais saúde – e ainda ajudar o próximo? Pois essa é a proposta de uma iniciativa muito legal chamada:</H5>
           <p>Challenge do Bem</p>
         </StyledTitle>
           <StyledImage>
             <IconImages imageName='MundoLivre2' type='png' />
           </StyledImage>
-            <H4>Ouça agora o PodCast sobre o CB clicando <a href='https://mundolivrefm.com.br/podcasts/rock-and-run-64/' target='_blank'>AQUI!</a></H4>
+            <H5>Ouça agora o PodCast sobre o CB clicando <a href='https://mundolivrefm.com.br/podcasts/rock-and-run-64/' target='_blank'>AQUI!</a></H5>
       </StyledContainer>
   )
 }
