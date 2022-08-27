@@ -6,7 +6,7 @@ import IconImages from '../Icones/IconImages'
 const StyledMonthlyHeader = styled.div`
   display: flex;
   justify-content: center;
-  padding: 120px;
+  padding: 80px;
 
   @media (max-width: 1548px) {
     display: none;
@@ -21,13 +21,17 @@ const StyledMonthlyContainer = styled.div`
 `
 
 const StyledTitleMonthlyExercise = styled.div`
+  margin-bottom: 80px;
+`
+
+const StyledSubscribe = styled.div`
+
   a{
     display: flex;
     justify-content: center;
     margin: 80px 80px;
     font-size: 48px;
     font-weight: bold;
-    background-color: ${props => props.theme.background};
     color: ${props => props.theme.primary};
   }
 
@@ -172,9 +176,9 @@ function MonthlyExercise () {
                   </StyledSpecificGoals> 
               </StyledAllGoalsExercise>
             </StyledAllExercise>
-              <StyledTitleMonthlyExercise>
+              <StyledSubscribe>
                 <a href='https://chat.whatsapp.com/LIkpImaPlpCLwwO1sB8EiW' target='_blank'>Inscreva-se AGORA!</a>
-              </StyledTitleMonthlyExercise>
+              </StyledSubscribe>
       </StyledMonthlyContainer>
     </>
   )

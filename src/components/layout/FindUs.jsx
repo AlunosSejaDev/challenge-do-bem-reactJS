@@ -38,6 +38,17 @@ const StyledContact = styled.div`
   align-items: center;
 `
 
+const StyledFace = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 305px;
+  gap: 10px;
+  
+  @media (max-width: 640px) {
+    display: none;
+  }
+`
+
 const StyledWhats = styled.div`
   display: flex;
   flex-direction: row;
@@ -80,10 +91,10 @@ function FindUs () {
           </StyledWhereAreUs>
           <StyledContact>
               <H1>Contato</H1>
-              <StyledWhats>
+              <StyledFace>
                 <IconImages imageName='facebookIcon' type='svg' />
                 <H3>facebook.com/challengedobem</H3>
-              </StyledWhats>
+              </StyledFace>
               <StyledEmail>
                 <IconImages imageName='EmailLogo' type='svg' />
                 <H3> challengedobem@gmail.com</H3>
