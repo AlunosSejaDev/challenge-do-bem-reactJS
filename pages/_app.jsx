@@ -2,17 +2,17 @@ import { createGlobalStyle, ThemeProvider } from 'styled-components'
 import theme from '../src/theme'
 
 const GlobalStyle = createGlobalStyle`
- * {
+ *{
     padding: 0;
     margin: 0;
  }
 
- body {
+ body{
   font-family: 'Roboto', sans-serif;
   background-color: ${props => props.theme.background};
  }
 
- a {
+ a{
   color: ${props => props.theme.white};
   font-weight: bold;
   font-size: 24px;
@@ -39,7 +39,7 @@ a:hover:after{
 }
 `
 
-function App ({ Component, pageProps }) {
+export default function App ({ Component, pageProps }) {
   return (
       <ThemeProvider theme={theme}>
         <GlobalStyle />
@@ -47,5 +47,3 @@ function App ({ Component, pageProps }) {
       </ThemeProvider>
   )
 }
-
-export default App;

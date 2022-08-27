@@ -59,7 +59,7 @@ const StyledImages = styled.div`
   }
 `
 
-function AboutUs () {
+export default function AboutUs () {
   return(
     <>
       <StyledContainer>
@@ -76,5 +76,3 @@ function AboutUs () {
     </>
   )
 }
-
-export default AboutUs
