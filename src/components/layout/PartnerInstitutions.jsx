@@ -15,7 +15,7 @@ const StyledTitle = styled.div`
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
-
+  
   @media (max-width: 700px) {
     display: flex;
     flex-direction: column;

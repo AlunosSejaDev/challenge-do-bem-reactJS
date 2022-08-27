@@ -18,6 +18,7 @@ const StyledMonthlyContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 50px;
 `
 
 const StyledTitleMonthlyExercise = styled.div`
@@ -46,6 +47,8 @@ const StyledAllExercise = styled.div`
   display: flex;
   align-items: center;
   gap: 50px;
+  padding: 30px;
+
 
   @media (max-width: 1200px) {
     display: flex;
