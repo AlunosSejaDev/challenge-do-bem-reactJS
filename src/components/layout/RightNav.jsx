@@ -48,13 +48,13 @@ const RightNav = ({ open }) => {
         <Link to='about' smooth={true} offset={-10} duration={800} >Sobre nós</Link>
       </li>
       <li>
+        <Link to='monthlyChallenges' smooth={true} offset={-25} duration={800} >Desafio do mês</Link>
+      </li>
+      <li>
         <Link to='institutions' smooth={true} offset={10} duration={800} >Instituições parceiras</Link>
       </li>
       <li>
         <Link to='knowMore' smooth={true} offset={-70} duration={800} >Saiba mais</Link>
-      </li>
-      <li>
-        <Link to='monthlyChallenges' smooth={true} offset={-25} duration={800} >Desafio do mês</Link>
       </li>
       <li>
         <Link to='contact' smooth={true} offset={50} duration={800} >Fale conosco</Link>
