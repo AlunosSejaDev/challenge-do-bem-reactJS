@@ -74,6 +74,10 @@ export default function HomePage () {
           <LineBar />
             <AboutUs />
         </div>
+        <div id='monthlyChallenges'>
+          <LineBar />
+            <MonthlyExercise />
+        </div>
         <div id='institutions'>
           <LineBar />
             <PartnerInstitutions />
@@ -81,10 +85,6 @@ export default function HomePage () {
         <div id='knowMore'>
           <LineBar />
             <Podcast />
-        </div>
-        <div id='monthlyChallenges'>
-          <LineBar />
-            <MonthlyExercise />
         </div>
         <div id='contact'>
           <StyledSecondaryLineBarContainer />
