@@ -23,6 +23,7 @@ const StyledMonthlyContainer = styled.div`
 
 const StyledTitleMonthlyExercise = styled.div`
   margin-bottom: 80px;
+  text-align: center;
 `
 
 const StyledSubscribe = styled.div`
