@@ -77,7 +77,7 @@ const StyledInstagram = styled.div`
   gap: 20px;
 `
 
-function FindUs () {
+export default function FindUs () {
   return(
     <>
       <StyledContainerContact>
@@ -108,5 +108,3 @@ function FindUs () {
     </>
   )
 }
-
-export default FindUs

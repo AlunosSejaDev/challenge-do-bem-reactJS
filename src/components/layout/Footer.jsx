@@ -27,7 +27,7 @@ const StyledFooter = styled.div`
   }
 `
 
-function Footer () {
+export default function Footer () {
   return (
     <>
       <StyledFooter>
@@ -40,5 +40,3 @@ function Footer () {
     </>
   )
 }
-
-export default Footer

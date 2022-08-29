@@ -23,7 +23,7 @@ const StyledHeaderIcon = styled.div`
   cursor: pointer;
 `
 
-function NavBar () {
+export default function NavBar () {
   return(
     <StyledNavBar>
       <StyledHeaderIcon>
@@ -33,5 +33,3 @@ function NavBar () {
     </StyledNavBar>
   )
 }
-
-export default NavBar

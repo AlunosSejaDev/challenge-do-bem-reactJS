@@ -42,7 +42,7 @@ const StyledContainer = styled.div`
     }
 `
 
-function ImageCb ({ children, image }) { 
+export default function ImageCb ({ children, image }) { 
   return (
     <>
       <StyledFlex>
@@ -56,5 +56,3 @@ function ImageCb ({ children, image }) {
 ImageCb.defaultProps = {
   image: '/meghan-holmes.jpg'
 }
-
-export default ImageCb

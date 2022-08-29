@@ -11,7 +11,7 @@ const StyledSecondaryLineBar = styled.div`
   height: 5px;
 `
 
-function LineBar () {
+export default function LineBar () {
   return(
     <>
      <StyledSecondaryLineBarContainer>
@@ -20,5 +20,3 @@ function LineBar () {
     </>
   )
 }
-
-export default LineBar

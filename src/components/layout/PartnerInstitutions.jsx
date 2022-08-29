@@ -234,7 +234,7 @@ const StyledImage9 = styled.div`
   }
 `
 
-function PartnerInstitutions () {
+export default function PartnerInstitutions () {
   return (
     <>
       <StyledContainer>
@@ -245,38 +245,36 @@ function PartnerInstitutions () {
           <StyledImage1>
             <IconImages imageName='becoDaEsperanca' type='svg' />
           </StyledImage1>
-          <StyledImage2>
-            <IconImages imageName='institutoDuCao' type='svg' />
-          </StyledImage2>
-          <StyledImage3>
-            <IconImages imageName='asiloSaoVicente' type='svg' />
-          </StyledImage3>
+            <StyledImage2>
+              <IconImages imageName='institutoDuCao' type='svg' />
+            </StyledImage2>
+              <StyledImage3>
+                <IconImages imageName='asiloSaoVicente' type='svg' />
+              </StyledImage3>
         </StyledAllImages>
-        <StyledAllImages2>
-          <StyledImage4>
-            <IconImages imageName='CrazyCatOficial' type='svg' />
-          </StyledImage4>
-          <StyledImage5>
-            <IconImages imageName='JardimDasBorboletasOficial' type='svg' />
-          </StyledImage5>
-          <StyledImage6>
-            <IconImages imageName='MaestroOficial' type='svg' />
-          </StyledImage6>
-        </StyledAllImages2>
-        <StyledAllImages3>
-          <StyledImage7>
-            <IconImages imageName='RangoDeRuaOficial' type='svg' />
-          </StyledImage7>
-          <StyledImage8>
-            <IconImages imageName='SocorroOficial' type='svg' />
-          </StyledImage8>
-        </StyledAllImages3>
-          <StyledImage9>
-            <IconImages imageName='amigosDoCaximba' type='svg' />
-          </StyledImage9>
-      </StyledContainer>
+          <StyledAllImages2>
+              <StyledImage4>
+                <IconImages imageName='CrazyCatOficial' type='svg' />
+              </StyledImage4>
+                <StyledImage5>
+                  <IconImages imageName='JardimDasBorboletasOficial' type='svg' />
+                </StyledImage5>
+                  <StyledImage6>
+                    <IconImages imageName='MaestroOficial' type='svg' />
+                  </StyledImage6>
+          </StyledAllImages2>
+            <StyledAllImages3>
+                <StyledImage7>
+                  <IconImages imageName='RangoDeRuaOficial' type='svg' />
+                </StyledImage7>
+                  <StyledImage8>
+                    <IconImages imageName='SocorroOficial' type='svg' />
+                  </StyledImage8>
+            </StyledAllImages3>
+              <StyledImage9>
+                <IconImages imageName='amigosDoCaximba' type='svg' />
+              </StyledImage9>
+        </StyledContainer>
     </>
   )
 }
-
-export default PartnerInstitutions

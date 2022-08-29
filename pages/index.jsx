@@ -70,27 +70,27 @@ export default function HomePage () {
                 <H6>Nos ajude a ajudar pessoas que necessitam!</H6>
         </ImageCb>
         </div>
-        <div id='about'>
-          <LineBar />
-            <AboutUs />
-        </div>
-        <div id='monthlyChallenges'>
-          <LineBar />
-            <MonthlyExercise />
-        </div>
-        <div id='institutions'>
-          <LineBar />
-            <PartnerInstitutions />
-        </div>
-        <div id='knowMore'>
-          <LineBar />
-            <Podcast />
-        </div>
-        <div id='contact'>
-          <StyledSecondaryLineBarContainer />
-            <FindUs />
-              <Footer />
-        </div>
+          <div id='about'>
+            <LineBar />
+              <AboutUs />
+          </div>
+            <div id='monthlyChallenges'>
+              <LineBar />
+                <MonthlyExercise />
+            </div>
+              <div id='institutions'>
+                <LineBar />
+                  <PartnerInstitutions />
+              </div>
+                <div id='knowMore'>
+                  <LineBar />
+                    <Podcast />
+                </div>
+                  <div id='contact'>
+                    <StyledSecondaryLineBarContainer />
+                      <FindUs />
+                        <Footer />
+                  </div>
     </>
   )
 }

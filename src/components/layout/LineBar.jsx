@@ -6,10 +6,8 @@ const StyledLineBar = styled.div`
   padding: 5px 0;
 `
 
-function LineBar () {
+export default function LineBar () {
   return(
     <StyledLineBar />
   )
 }
-
-export default LineBar

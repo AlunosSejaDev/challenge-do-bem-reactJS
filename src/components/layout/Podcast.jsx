@@ -1,9 +1,7 @@
 import styled from 'styled-components'
 
-import H1 from '../typograph/H1'
-import H4 from '../typograph/H4'
-
 import IconImages from '../Icones/IconImages'
+import H1 from '../typograph/H1'
 import H5 from '../typograph/H5'
 
 const StyledContainer = styled.div`
@@ -69,7 +67,7 @@ const StyledImage = styled.div`
   }
 `
 
-function Podcast() {
+export default function Podcast() {
   return(
     <StyledContainer>
         <StyledTitle>
@@ -84,5 +82,3 @@ function Podcast() {
       </StyledContainer>
   )
 }
-
-export default Podcast

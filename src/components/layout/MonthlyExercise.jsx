@@ -135,7 +135,7 @@ const StyledAllGoalsExercise = styled.div`
   align-items: center;
 `
 
-function MonthlyExercise () {
+export default function MonthlyExercise () {
   return (
     <>
     <StyledMonthlyHeader>
@@ -187,5 +187,3 @@ function MonthlyExercise () {
     </>
   )
 }
-
-export default MonthlyExercise
