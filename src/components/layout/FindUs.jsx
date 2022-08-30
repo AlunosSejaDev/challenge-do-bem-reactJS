@@ -91,17 +91,18 @@ export default function FindUs () {
           </StyledWhereAreUs>
           <StyledContact>
               <H1>Contato</H1>
-              <StyledFace>
-                <IconImages imageName='facebookIcon' type='svg' />
-                <H3>facebook.com/challengedobem</H3>
+              <StyledFace>             
+                <a href='https://www.facebook.com/challengedobem' target='_blank'><IconImages imageName='facebookIcon' type='svg' /><H3>facebook.com/challengedobem</H3></a>                
+                
               </StyledFace>
               <StyledEmail>
-                <IconImages imageName='EmailLogo' type='svg' />
-                <H3> challengedobem@gmail.com</H3>
+                <a href='challengedobem@gmail.com' target='_blank'><IconImages imageName='EmailLogo' type='svg' /><H3> challengedobem@gmail.com</H3></a>                
               </StyledEmail>
               <StyledInstagram> 
-                <IconImages imageName='InstagramLogo' type='svg' />
-                <H3> @challengedobem</H3>
+                <a href='https://www.instagram.com/challengedobem/' target='_blank'>
+                  <IconImages imageName='InstagramLogo' type='svg' />
+                  <H3> @challengedobem</H3>
+                </a> 
               </StyledInstagram>
           </StyledContact>
       </StyledContainerContact>

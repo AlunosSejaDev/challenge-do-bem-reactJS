@@ -243,36 +243,37 @@ export default function PartnerInstitutions () {
         </StyledTitle>
         <StyledAllImages>
           <StyledImage1>
-            <IconImages imageName='becoDaEsperanca' type='svg' />
+          <a href='https://becodaesperanca.org/' target='_blank'><IconImages imageName='becoDaEsperanca' type='svg' /> </a>            
           </StyledImage1>
             <StyledImage2>
-              <IconImages imageName='institutoDuCao' type='svg' />
+             <a href='https://www.facebook.com/institutoducao/' target='_blank'><IconImages imageName='institutoDuCao' type='svg' /></a>              
             </StyledImage2>
               <StyledImage3>
-                <IconImages imageName='asiloSaoVicente' type='svg' />
+              <a href='https://asilosaovicente.org.br/' target='_blank'><IconImages imageName='asiloSaoVicente' type='svg'/></a>    
               </StyledImage3>
         </StyledAllImages>
           <StyledAllImages2>
-              <StyledImage4>
-                <IconImages imageName='CrazyCatOficial' type='svg' />
+              <StyledImage4>              
+              <a href='http://crazycatgang.com.br/' target='_blank'><IconImages imageName='CrazyCatOficial' type='svg' /></a>                
               </StyledImage4>
-                <StyledImage5>
-                  <IconImages imageName='JardimDasBorboletasOficial' type='svg' />
+                <StyledImage5>                 
+                  <a href='https://www.ongjardimdasborboletas.com/' target='_blank'><IconImages imageName='JardimDasBorboletasOficial' type='svg' /></a>                
                 </StyledImage5>
-                  <StyledImage6>
-                    <IconImages imageName='MaestroOficial' type='svg' />
+                  <StyledImage6>                  
+                    <a href='https://www.projetomaestrodabola.com.br/' target='_blank'><IconImages imageName='MaestroOficial' type='svg' /></a>
                   </StyledImage6>
           </StyledAllImages2>
             <StyledAllImages3>
-                <StyledImage7>
-                  <IconImages imageName='RangoDeRuaOficial' type='svg' />
+                <StyledImage7>                 
+                  <a href='https://rangoderua.github.io/#' target='_blank'><IconImages imageName='RangoDeRuaOficial' type='svg' /></a>
+                  
                 </StyledImage7>
-                  <StyledImage8>
-                    <IconImages imageName='SocorroOficial' type='svg' />
+                  <StyledImage8>                  
+                    <a href='http://www.socorroaosnecessitados.org.br/' target='_blank'><IconImages imageName='SocorroOficial' type='svg' /></a>
                   </StyledImage8>
             </StyledAllImages3>
-              <StyledImage9>
-                <IconImages imageName='amigosDoCaximba' type='svg' />
+              <StyledImage9>             
+                <a href='https://www.amigosdocaximba.org/' target='_blank'><IconImages imageName='amigosDoCaximba' type='svg' /></a>
               </StyledImage9>
         </StyledContainer>
     </>
