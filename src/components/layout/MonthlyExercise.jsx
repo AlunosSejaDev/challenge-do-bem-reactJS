@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 import H1 from '../typograph/H1'
+import { Link } from "react-scroll"
 import IconImages from '../Icones/IconImages'
 
 const StyledMonthlyHeader = styled.div`
@@ -34,11 +35,12 @@ const StyledSubscribe = styled.div`
     margin: 80px 80px;
     font-size: 48px;
     font-weight: bold;
+    position: initial;
     color: ${props => props.theme.primary};
   }
 
   a:hover{
-  color: ${props => props.theme.primary};
+  color: ${props => props.theme.white};
 }
   
   @media (max-width: 700px) {
