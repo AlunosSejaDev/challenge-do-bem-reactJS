@@ -162,7 +162,7 @@ export default function MonthlyExercise () {
                   <IconImages imageName='Bike' type='svg' />
                 </StyledExercise2>
                 <StyledSpecificGoals>
-                  <p>Bike Assalt</p>
+                  <p>Bike Assault</p>
                   <p>🥇OURO - 1.000 cal</p>
                   <p>🥈PRATA - 750 cal</p>
                   <p>🥉BRONZE - 500 cal</p>   
