@@ -63,6 +63,13 @@ const StyledImage1 = styled.div`
   border-radius: 50px;
   padding: 15px 40px;
 
+  a{
+    display: flex;
+    justify-content: center;
+    font-size: 48px;
+    position: inherit;
+  }
+
   @media (max-width: 360px) {
     display: flex;
     flex-direction: column;
@@ -243,7 +250,10 @@ export default function PartnerInstitutions () {
         </StyledTitle>
         <StyledAllImages>
           <StyledImage1>
-            <IconImages imageName='becoDaEsperanca' type='svg' />
+            <a href="https://becodaesperanca.org/" target="_blank">
+              <IconImages imageName='becoDaEsperanca' type='svg' />
+              </a>
+            
           </StyledImage1>
             <StyledImage2>
               <IconImages imageName='institutoDuCao' type='svg' />

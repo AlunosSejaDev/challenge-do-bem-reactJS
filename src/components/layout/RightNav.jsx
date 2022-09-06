@@ -51,7 +51,7 @@ const RightNav = ({ open }) => {
             <Link to='monthlyChallenges' smooth={true} offset={-25} duration={800} >Desafio do mês</Link>
           </li>
             <li>
-              <Link to='institutions' smooth={true} offset={10} duration={800} >Instituições parceiras</Link>
+              <Link to='institutions' smooth={true} offset={10} duration={800} >Instituições apoiadas</Link>
             </li>
               <li>
                 <Link to='knowMore' smooth={true} offset={-70} duration={800} >Saiba mais</Link>
