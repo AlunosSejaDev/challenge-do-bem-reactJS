@@ -17,6 +17,18 @@ const StyledContainer = styled.div`
   border-radius: 50px;
   padding: 30px;
 
+  a{  
+    font-size: 24px;
+    font-weight: bold;
+    position: initial;
+    color: ${props => props.theme.primary};
+  }
+
+  a:hover{
+    color: ${props => props.theme.white};
+}
+  
+
   @media (max-width: 1480px) {
     border: none;
     margin: 0;
@@ -78,7 +90,7 @@ export default function Podcast() {
           <StyledImage>
             <IconImages imageName='MundoLivre2' type='png' />
           </StyledImage>
-            <H5>Ouça agora o PodCast sobre o CB clicando <a href='https://mundolivrefm.com.br/podcasts/rock-and-run-64/' target='_blank'>AQUI!</a></H5>
+            <H5>Ouça agora o PodCast sobre o CB clicando<a href='https://mundolivrefm.com.br/podcasts/rock-and-run-64/' target='_blank'>AQUI!</a></H5>
       </StyledContainer>
   )
 }
