@@ -1,7 +1,6 @@
 import styled from 'styled-components'
 
 import H1 from '../typograph/H1'
-import { Link } from "react-scroll"
 import IconImages from '../Icones/IconImages'
 
 const StyledMonthlyHeader = styled.div`
