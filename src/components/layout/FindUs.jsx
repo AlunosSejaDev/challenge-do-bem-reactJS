@@ -43,6 +43,12 @@ const StyledFace = styled.div`
   flex-direction: row;
   width: 305px;
   gap: 10px;
+
+  a{
+    display: flex;
+    justify-content: center;
+    position: inherit;
+  }
   
   @media (max-width: 640px) {
     display: none;
@@ -64,7 +70,13 @@ const StyledEmail = styled.div`
   display: flex;
   flex-direction: row;
   width: 290px;
-  gap: 20px;
+  gap: 15px;
+
+  a{
+    display: flex;
+    justify-content: center;
+    position: inherit;
+  }
 
   @media (max-width: 640px) {
     display: none;
@@ -74,8 +86,16 @@ const StyledInstagram = styled.div`
   display: flex;
   flex-direction: row;
   width: 290px;
-  gap: 20px;
+  gap: 15px;
+
+  a{
+    display: flex;
+    justify-content: center;
+    position: inherit;
+  }
 `
+
+
 
 export default function FindUs () {
   return(
@@ -91,18 +111,28 @@ export default function FindUs () {
           </StyledWhereAreUs>
           <StyledContact>
               <H1>Contato</H1>
+              
               <StyledFace>
                 <IconImages imageName='facebookIcon' type='svg' />
-                <H3>facebook.com/challengedobem</H3>
+                <H3>
+                  <a href="https://www.facebook.com/challengedobem">facebook.com/challengedobem</a>
+                </H3>                                      
               </StyledFace>
+
               <StyledEmail>
                 <IconImages imageName='EmailLogo' type='svg' />
-                <H3> challengedobem@gmail.com</H3>
+                <H3>
+                  <a href="challengedobem@gmail.com">challengedobem@gmail.com</a>
+                </H3>
               </StyledEmail>
+
               <StyledInstagram> 
                 <IconImages imageName='InstagramLogo' type='svg' />
-                <H3> @challengedobem</H3>
+                <H3>
+                <a href="#"> @challengedobem</a> 
+                </H3>
               </StyledInstagram>
+
           </StyledContact>
       </StyledContainerContact>
     </>
