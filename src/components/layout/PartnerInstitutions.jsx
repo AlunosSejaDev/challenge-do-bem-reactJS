@@ -249,11 +249,11 @@ export default function PartnerInstitutions () {
               <StyledImage1><IconImages imageName='becoDaEsperanca' type='svg' />
               </StyledImage1></a>
             
-              <a href="https://becodaesperanca.org/" target="_blank"><StyledImage2>
+              <a href="https://www.instagram.com/institutoducao/" target="_blank"><StyledImage2>
               <IconImages imageName='institutoDuCao' type='svg' />
             </StyledImage2> </a>
 
-            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage3>
+            <a href="https://asilosaovicente.org.br/site/" target="_blank"><StyledImage3>
               <IconImages imageName='asiloSaoVicente' type='svg' />
             </StyledImage3> </a>
 
@@ -261,15 +261,15 @@ export default function PartnerInstitutions () {
 
         <StyledAllImages2>
 
-            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage4>
+            <a href="http://crazycatgang.com.br/" target="_blank"><StyledImage4>
                 <IconImages imageName='CrazyCatOficial' type='svg' />
               </StyledImage4> </a>
 
-            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage5>
+            <a href="https://www.ongjardimdasborboletas.com/" target="_blank"><StyledImage5>
               <IconImages imageName='JardimDasBorboletasOficial' type='svg' />
             </StyledImage5> </a>
 
-            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage6>
+            <a href="https://www.projetomaestrodabola.com.br/" target="_blank"><StyledImage6>
               <IconImages imageName='MaestroOficial' type='svg' />
             </StyledImage6> </a>
 
@@ -277,17 +277,17 @@ export default function PartnerInstitutions () {
 
         <StyledAllImages3>
 
-            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage7>
+            <a href="https://www.instagram.com/rangoderua/" target="_blank"><StyledImage7>
                   <IconImages imageName='RangoDeRuaOficial' type='svg' />
                 </StyledImage7> </a>
 
-                <a href="https://becodaesperanca.org/" target="_blank"><StyledImage8>
+                <a href="http://www.socorroaosnecessitados.org.br/" target="_blank"><StyledImage8>
               <IconImages imageName='SocorroOficial' type='svg' />
             </StyledImage8> </a>
                 
         </StyledAllImages3>
 
-        <a href="https://becodaesperanca.org/" target="_blank"><StyledImage9>
+        <a href="https://www.amigosdocaximba.org/" target="_blank"><StyledImage9>
               <IconImages imageName='amigosDoCaximba' type='svg' />
             </StyledImage9> </a>
 
