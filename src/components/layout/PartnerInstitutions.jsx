@@ -63,12 +63,6 @@ const StyledImage1 = styled.div`
   border-radius: 50px;
   padding: 15px 40px;
 
-  a{
-    display: flex;
-    justify-content: center;
-    font-size: 48px;
-    position: inherit;
-  }
 
   @media (max-width: 360px) {
     display: flex;
@@ -248,42 +242,55 @@ export default function PartnerInstitutions () {
         <StyledTitle>
           <H1>Instituições apoiadas</H1>
         </StyledTitle>
+
         <StyledAllImages>
-          <StyledImage1>
+          
             <a href="https://becodaesperanca.org/" target="_blank">
-              <IconImages imageName='becoDaEsperanca' type='svg' />
-              </a>
+              <StyledImage1><IconImages imageName='becoDaEsperanca' type='svg' />
+              </StyledImage1></a>
             
-          </StyledImage1>
-            <StyledImage2>
+              <a href="https://becodaesperanca.org/" target="_blank"><StyledImage2>
               <IconImages imageName='institutoDuCao' type='svg' />
-            </StyledImage2>
-              <StyledImage3>
-                <IconImages imageName='asiloSaoVicente' type='svg' />
-              </StyledImage3>
+            </StyledImage2> </a>
+
+            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage3>
+              <IconImages imageName='asiloSaoVicente' type='svg' />
+            </StyledImage3> </a>
+
         </StyledAllImages>
-          <StyledAllImages2>
-              <StyledImage4>
+
+        <StyledAllImages2>
+
+            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage4>
                 <IconImages imageName='CrazyCatOficial' type='svg' />
-              </StyledImage4>
-                <StyledImage5>
-                  <IconImages imageName='JardimDasBorboletasOficial' type='svg' />
-                </StyledImage5>
-                  <StyledImage6>
-                    <IconImages imageName='MaestroOficial' type='svg' />
-                  </StyledImage6>
-          </StyledAllImages2>
-            <StyledAllImages3>
-                <StyledImage7>
+              </StyledImage4> </a>
+
+            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage5>
+              <IconImages imageName='JardimDasBorboletasOficial' type='svg' />
+            </StyledImage5> </a>
+
+            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage6>
+              <IconImages imageName='MaestroOficial' type='svg' />
+            </StyledImage6> </a>
+
+        </StyledAllImages2>
+
+        <StyledAllImages3>
+
+            <a href="https://becodaesperanca.org/" target="_blank"><StyledImage7>
                   <IconImages imageName='RangoDeRuaOficial' type='svg' />
-                </StyledImage7>
-                  <StyledImage8>
-                    <IconImages imageName='SocorroOficial' type='svg' />
-                  </StyledImage8>
-            </StyledAllImages3>
-              <StyledImage9>
-                <IconImages imageName='amigosDoCaximba' type='svg' />
-              </StyledImage9>
+                </StyledImage7> </a>
+
+                <a href="https://becodaesperanca.org/" target="_blank"><StyledImage8>
+              <IconImages imageName='SocorroOficial' type='svg' />
+            </StyledImage8> </a>
+                
+        </StyledAllImages3>
+
+        <a href="https://becodaesperanca.org/" target="_blank"><StyledImage9>
+              <IconImages imageName='amigosDoCaximba' type='svg' />
+            </StyledImage9> </a>
+
         </StyledContainer>
     </>
   )

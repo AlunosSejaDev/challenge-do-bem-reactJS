@@ -36,6 +36,8 @@ const StyledSubscribe = styled.div`
     font-weight: bold;
     position: initial;
     color: ${props => props.theme.primary};
+    text-decoration: none;
+    transition: all 0.3s;
   }
 
   a:hover{

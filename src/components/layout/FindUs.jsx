@@ -36,6 +36,17 @@ const StyledContact = styled.div`
   flex-direction: column;
   gap: 40px;
   align-items: center;
+
+  a{
+  color: ${props => props.theme.white};
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: none;
+  transition: all 0.3s;
+  position: relative;
+  letter-spacing: 0.5px;
+  padding: 0 10px;
+}
 `
 
 const StyledFace = styled.div`
@@ -47,19 +58,7 @@ const StyledFace = styled.div`
   a{
     display: flex;
     justify-content: center;
-    position: inherit;
   }
-  
-  @media (max-width: 640px) {
-    display: none;
-  }
-`
-
-const StyledWhats = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 295px;
-  gap: 10px;
   
   @media (max-width: 640px) {
     display: none;
@@ -75,7 +74,6 @@ const StyledEmail = styled.div`
   a{
     display: flex;
     justify-content: center;
-    position: inherit;
   }
 
   @media (max-width: 640px) {
@@ -88,14 +86,12 @@ const StyledInstagram = styled.div`
   width: 290px;
   gap: 15px;
 
-  a{
+  @media (max-width: 640px) {
     display: flex;
-    justify-content: center;
-    position: inherit;
+    align-items: center;
+    flex-direction: column;
   }
 `
-
-
 
 export default function FindUs () {
   return(
@@ -113,24 +109,15 @@ export default function FindUs () {
               <H1>Contato</H1>
               
               <StyledFace>
-                <IconImages imageName='facebookIcon' type='svg' />
-                <H3>
-                  <a href="https://www.facebook.com/challengedobem">facebook.com/challengedobem</a>
-                </H3>                                      
+                <a href="https://www.facebook.com/challengedobem" target="_blank"><IconImages imageName='facebookIcon' type='svg' /></a><H3><a href="https://www.facebook.com/challengedobem" target="_blank">facebook.com/challengedobem</a></H3>                                      
               </StyledFace>
 
               <StyledEmail>
-                <IconImages imageName='EmailLogo' type='svg' />
-                <H3>
-                  <a href="challengedobem@gmail.com">challengedobem@gmail.com</a>
-                </H3>
+                <a href="challengedobem@gmail.com" target="_blank"><IconImages imageName='EmailLogo' type='svg' /></a><H3><a href="challengedobem@gmail.com" target="_blank">challengedobem@gmail.com</a></H3>
               </StyledEmail>
 
               <StyledInstagram> 
-                <IconImages imageName='InstagramLogo' type='svg' />
-                <H3>
-                <a href="#"> @challengedobem</a> 
-                </H3>
+                <a href="https://www.instagram.com/challengedobem/" target="_blank"><IconImages imageName='InstagramLogo' type='svg' /></a><H3><a href="https://www.instagram.com/challengedobem/" target="_blank">@challengedobem</a></H3>
               </StyledInstagram>
 
           </StyledContact>

@@ -44,6 +44,11 @@ const SecondaryText = styled.div`
   margin-bottom: 140px;
   justify-content: center;
   color: ${props => props.theme.white};
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+  }
 `
 
 export default function HomePage () {

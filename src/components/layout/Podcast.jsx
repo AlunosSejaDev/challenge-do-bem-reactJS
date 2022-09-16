@@ -17,11 +17,14 @@ const StyledContainer = styled.div`
   border-radius: 50px;
   padding: 30px;
 
-  a{  
+  a {  
+    margin-left: 10px;
+    text-decoration: none;
     font-size: 24px;
     font-weight: bold;
     position: initial;
     color: ${props => props.theme.primary};
+    transition: all 0.3s;
   }
 
   a:hover{
