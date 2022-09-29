@@ -31,7 +31,7 @@ const StyledSubscribe = styled.div`
   a{
     display: flex;
     justify-content: center;
-    margin: 80px 80px;
+    
     font-size: 48px;
     font-weight: bold;
     position: initial;
@@ -43,11 +43,19 @@ const StyledSubscribe = styled.div`
   a:hover{
   color: ${props => props.theme.white};
 }
-  
+
   @media (max-width: 700px) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      
+    }
+  
+  @media (max-width: 460px) {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-top: 5rem;
   }
 `
 
