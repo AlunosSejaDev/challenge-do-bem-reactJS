@@ -22,12 +22,13 @@ const StyledMonthlyContainer = styled.div`
 `
 
 const StyledTitleMonthlyExercise = styled.div`
-  margin-bottom: 40px;
+  margin-bottom: 80px;
   text-align: center;
 `
 
 const StyledSubscribe = styled.div`
-
+  margin-bottom: 80px;
+  
   a{
     display: flex;
     justify-content: center;
@@ -76,7 +77,12 @@ const StyledAllExercise = styled.div`
 `
 
 const StyledExercise1 = styled.div`
-
+  cursor: pointer;
+  transition: all ease-out 0.5s;
+  
+  :hover{
+    transform: scale(1.3);
+  }
 
   @media (max-width: 460px) {
     display: flex;
@@ -88,6 +94,12 @@ const StyledExercise1 = styled.div`
 `
 
 const StyledExercise2 = styled.div`
+  cursor: pointer;
+  transition: all ease-out 0.5s;
+  
+  :hover{
+    transform: scale(1.3);
+  }
 
   @media (max-width: 460px) {
     display: flex;
@@ -99,6 +111,12 @@ const StyledExercise2 = styled.div`
 `
 
 const StyledExercise3 = styled.div`
+  cursor: pointer;
+  transition: all ease-out 0.5s;
+  
+  :hover{
+    transform: scale(1.3);
+  }
 
   @media (max-width: 460px) {
     display: flex;
