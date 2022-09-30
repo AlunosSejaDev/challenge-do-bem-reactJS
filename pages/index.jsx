@@ -17,6 +17,7 @@ import MonthlyExercise from '../src/components/layout/MonthlyExercise'
 import StyledSecondaryLineBarContainer from '../src/components/layout/SecondaryLineBar'
 import FindUs from '../src/components/layout/FindUs'
 import Footer from '../src/components/layout/Footer'
+import Donation from '../src/components/layout/Donations'
 
 const FormContainer = styled.div`
   margin: 100px 0 20px 0;
@@ -87,6 +88,11 @@ export default function HomePage () {
                 <LineBar />
                   <PartnerInstitutions />
               </div>
+              <div id='donation'>
+                <LineBar /> 
+                  <Donation />
+              </div>
+
                 <div id='knowMore'>
                   <LineBar />
                     <Podcast />

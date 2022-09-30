@@ -79,6 +79,9 @@ const RightNav = ({ open }) => {
             <li>
               <Link to='institutions' smooth={true} offset={10} duration={800} >Instituições apoiadas</Link>
             </li>
+            <li>
+              <Link to='donation' smooth={true} offset={10} duration={800} >Doações</Link>
+            </li>
               <li>
                 <Link to='knowMore' smooth={true} offset={-70} duration={800} >Saiba mais</Link>
               </li>

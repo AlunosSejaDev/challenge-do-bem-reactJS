@@ -71,6 +71,7 @@ const StyledImage1 = styled.div`
     height: 300px;
   }
 `
+
 const StyledImage2 = styled.div`
   background-color: ${props => props.theme.cardBackground};
   box-sizing: border-box;
